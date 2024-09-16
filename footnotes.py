@@ -3,11 +3,11 @@ import re
 # Function to increment the footnote number by 28
 def increment_footnote(match):
     number = int(match.group(1))
-    return f'[^{number + 28}]'
+    return f'[^{number + 466}]'
 
 # File paths
-input_file = 'chapters/ch03.qmd'  # Replace with the path to your input file
-output_file = 'chapters/ch03.qmd'  # Replace with the path to the output file
+input_file = 'chapters/ch11.qmd'  # Replace with the path to your input file
+output_file = 'chapters/ch11.qmd'  # Replace with the path to the output file
 
 # Read the content from the file
 with open(input_file, 'r', encoding='utf-8') as file:
