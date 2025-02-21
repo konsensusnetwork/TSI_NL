@@ -1,6 +1,10 @@
-# TRANSCENDING LOCALITY: The Emergence of the Cybereconomy
+# TRANSCENDING LOCALITY
 
-> "The real issue is control. The Internet is too widespread to be easily dominated by any single government. By creating a seamless global-economic zone, anti-sovereign and unregulatable, the Internet calls into question the very idea of a nationstate."[^245]: - JOHN PERRY BARLOW
+:::{.content-hidden when-format=latex}
+*The Emergence of the Cybereconomy*
+:::
+
+> "The real issue is control. The Internet is too widespread to be easily dominated by any single government. By creating a seamless global-economic zone, anti-sovereign and unregulatable, the Internet calls into question the very idea of a nationstate."[^245] - JOHN PERRY BARLOW
 
 The Information Superhighway has become one of the more familiar metaphors of the early days of the digital age. It is remarkable not only for its pervasiveness, but also for the common misunderstanding it betrays about the cybereconomy. A highway, after all, is an industrial version of a footpath, a network for the physical transit of people and goods. The information economy is not like a highway, a railroad, or a pipeline. It does not haul or transport information from point to point the way the Trans-Canada Highway carries heavy trucks from Alberta to New Brunswick. What the world calls the "Information Superhighway" is not merely a transit link. It is the destination.
 
@@ -60,8 +64,7 @@ We would concede to the critics that a recital of the tasks you could have under
 
 2. An intermediate stage of Internet commerce will employ information technology in ways that would have been impossible in the industrial era, such as in long-distance accounting or medical diagnosis. More examples of these new applications of advanced computational power are spelled out below. The second stage of Net commerce will still function within the old institutional framework, employing national currencies and submitting to the jurisdiction of nationstates. The merchants who employ the Net for sales will not yet employ it to bank their profits, only to earn revenues. These profits made on Internet transactions will still be subject to taxation.
 
-3. A more advanced stage will mark the transition to true cybercommerce. Not only will transactions occur over the Net, but they will migrate outside the jurisdiction of nationstates. Payment will be rendered in cybercurrency. Profits will be booked in cyberbanks. Investments will be made in cyberbrokerages. Many transactions will not be subject to taxation. At this stage, cybercommerce will begin to have significant megapolitical consequences of the kind we have already outlined. The powers of governments over traditional areas of the economy will be transformed by the new logic of the Net. Extraterritorial regulatory power will collapse. Jurisdictions will devolve, The structure of firms will change, and so will the nature of work and employment.
-This outline of the stages of the Information Revolution is only the barest sketch of what could be the most far-reaching economic transformation event.
+3. A more advanced stage will mark the transition to true cybercommerce. Not only will transactions occur over the Net, but they will migrate outside the jurisdiction of nationstates. Payment will be rendered in cybercurrency. Profits will be booked in cyberbanks. Investments will be made in cyberbrokerages. Many transactions will not be subject to taxation. At this stage, cybercommerce will begin to have significant megapolitical consequences of the kind we have already outlined. The powers of governments over traditional areas of the economy will be transformed by the new logic of the Net. Extraterritorial regulatory power will collapse. Jurisdictions will devolve, The structure of firms will change, and so will the nature of work and employment. This outline of the stages of the Information Revolution is only the barest sketch of what could be the most far-reaching economic transformation event.
 
 ## THE GLOBALIZATION OF COMMERCE
 
@@ -276,13 +279,11 @@ Still other governments may adapt to the opportunities created by the informatio
 
 ### Yield Gap
 
-The combination of credit crises, competitive adjustments by national monetary authorities, and early transitional obstacles to lending cybercurrency will lead to a yield gap in the early stages of the information economy. Cybermoney will pay lower interest rates than national currencies and will probably also carry explicit transaction costs. Offsetting these apparent drawbacks to holding balances in digital money will be enhanced protection against losses due to predatory taxes and inflation. Because it will probably be gold-linked, cybermoney will also benefit from the appreciation of gold. The price of gold will probably rise significantly relative to other commodities, no matter which of the alternative government policies predominates.
-Why?
-The real price of gold almost always rises in deflation. A deflation, after all, reflects a shortage of liquidity. Gold is the ultimate form of liquidity.
+The combination of credit crises, competitive adjustments by national monetary authorities, and early transitional obstacles to lending cybercurrency will lead to a yield gap in the early stages of the information economy. Cybermoney will pay lower interest rates than national currencies and will probably also carry explicit transaction costs. Offsetting these apparent drawbacks to holding balances in digital money will be enhanced protection against losses due to predatory taxes and inflation. Because it will probably be gold-linked, cybermoney will also benefit from the appreciation of gold. The price of gold will probably rise significantly relative to other commodities, no matter which of the alternative government policies predominates. Why? The real price of gold almost always rises in deflation. A deflation, after all, reflects a shortage of liquidity. Gold is the ultimate form of liquidity.
 
 ### The Deflation of the Industrial Age
 
-Higher real rates all around will spur liquidation of high-cost, unproductive activities, and temporarily reduce consumption. We explored the logic of the credit cycle and its unwinding in Blood in the Streets and The Great Reckoning, so we will not rehearse those arguments here. Suffice it to say that the deflationary environment may drag on for some time, with more adverse consequences in the high-cost industrial economies of North America and Western Europe than in the low-cost economies in Asia and Latin America.
+Higher real rates all around will spur liquidation of high-cost, unproductive activities, and temporarily reduce consumption. We explored the logic of the credit cycle and its unwinding in Blood in the Streets and *The Great Reckoning*, so we will not rehearse those arguments here. Suffice it to say that the deflationary environment may drag on for some time, with more adverse consequences in the high-cost industrial economies of North America and Western Europe than in the low-cost economies in Asia and Latin America.
 
 ### Lower Rates Long-Term
 
@@ -292,7 +293,7 @@ While the early consequences of the emergence of the cybereconomy are likely to 
 
 Conventional thinkers reviewing our argument at this point would conclude that the breakdown of income redistribution in the leading nationstates would doom the world to economic collapse. Do not believe it. We do not gainsay the fact that a transition crisis would be likely. But the view that the state improves the functioning of the economy by massive reallocation of resources is an anachronism, an article of faith roughly equivalent to the widespread superstitions at the close of the Middle Ages that fasting and flagellation were beneficial for a community. It should not be forgotten that governments waste resources on a large scale. Wasting resources makes you poor. A dramatic improvement in the efficiency of resource use will arise when revenues historically engrossed by governments come to be controlled instead by persons of genuine talent.
 
-Tens of billions, then ultimately hundreds of billions of dollars will be controlled by hundreds of thousands, then millions of Sovereign Individuals. These new stewards of the world's wealth are likely to prove far abler than politicians in utilizing resources and deploying investment. For the first time in history, megapolitical conditions will allow the ablest investors and entrepreneurs rather than specialists in violence ultimate control over capital. It is not unreasonable to expect that the rates of return on this dispersed, market-driven investment could be double or triple the meager returns from the politically driven budget allocations of the nationstate era. It was not uncommon in the final decades of the twentieth century to find examples in any country of government investment that were substantially negative. We cited official Russian statistics in the revised version of The Great Reckoning from November 1992, suggesting that the whole of Russia's economy was "worth just $30 billion, less than a third of the value of its raw-material inputs. By implication, the output of Russia's economy would more than triple in value if the domestic manufacturing and service economy were shut down completely. Instead of contributing value, they subtract it." [^267]:
+Tens of billions, then ultimately hundreds of billions of dollars will be controlled by hundreds of thousands, then millions of Sovereign Individuals. These new stewards of the world's wealth are likely to prove far abler than politicians in utilizing resources and deploying investment. For the first time in history, megapolitical conditions will allow the ablest investors and entrepreneurs rather than specialists in violence ultimate control over capital. It is not unreasonable to expect that the rates of return on this dispersed, market-driven investment could be double or triple the meager returns from the politically driven budget allocations of the nationstate era. It was not uncommon in the final decades of the twentieth century to find examples in any country of government investment that were substantially negative. We cited official Russian statistics in the revised version of *The Great Reckoning* from November 1992, suggesting that the whole of Russia's economy was "worth just $30 billion, less than a third of the value of its raw-material inputs. By implication, the output of Russia's economy would more than triple in value if the domestic manufacturing and service economy were shut down completely. Instead of contributing value, they subtract it." [^267]:
 
 Admittedly, the example of Russia after the collapse of Communism is an extreme one, but there is ample evidence that reducing state control of resources tends to improve economic efficiency. Growth rates cited by the Economist suggest that economic liberty is strongly correlated with economic growth, with the most rapid rates of growth in the freest countries. The cybereconomy of the Information Age will be more free than any other commercial realm in history. It is therefore reasonable to expect that the cybereconomy will rapidly become the most important new economy of the new millennium. Its success will attract new participants from everywhere on the globe, in the same way that the wide use of fax machines made telecopying increasingly attractive for nonusers. But even more important, freedom from predatory violence will allow the cybereconomy to grow at far higher compound rates of growth than conventional economies dominated by nationstates.
 
@@ -303,27 +304,55 @@ There could be great efficiency gains arising from a reduction of the resources 
 Would voters willingly forgo political windfalls to which they have become accustomed? That is an issue we take up at length elsewhere. But a simple answer is that we may have no choice. No one now demonstrates against rainy weather, or draught, however economically damaging or unpleasant it may be. No one, however criminally inclined, holds a pauper to ransom demanding a huge payment on pain of death. If it becomes impossible for politicians to obtain resources to redistribute, the public may respond in a rational way and forget about politics, just as well-intentioned people ceased organizing marches of penitents when the Middle Ages came to an end.
 
 [^245]: Perry Barlow, "Thinking Locally, Acting Globally," Time, January 15, 1996, p.57.
+
 [^246]: Ibid.
+
 [^247]: M. C. Seymour, ed., Mandeville:' Travels (Oxford: Oxford University Press, 1968), p.122.
+
 [^248]: R. C. Johnson, "The Transportation of Vagrant Children from London to Virginia, 1618-1622," in H. S. Reinmuth, ed., Early Stuart Studies (Minneapolis: University of Minnesota Press, 1970), pp. ~43-44, quoted in Jutte, op. cit., p.168.
+
 [^249]: John Dos Passos, The Big Money (New York: Harcourt, Brace & Co., 1936).
+
 [^250]: Clarke, op. cit., p.29.
+
 [^251]: Quoted in Kline and Burstein, op. ciL, p. ~05.
+
 [^252]: Clarke, op. cit., p.20.
+
 [^253]: Ibid.
+
 [^254]: Ibid., p.21.
+
 [^255]: Lane, "Economic Consequences of Organized Violence," op. cit., p.404.
+
 [^256]: James Bennet, "The Information Revolution and the Demise of the Income Tax," Strategic Investment, November 1994, pp.11-12.
+
 [^257]: Lane, "Economic Consequences of Organized Violence," op. cit., p.404.
+
 [^258]: Abu-Lughod, op cit.. p.177.
+
 [^259]: Quoted in Henry Mark Holzer, Governments' Money Monopoly (New York: Books in Focus, 1981), p.4.
+
 [^260]: Abu-Lughod, op. cit., p.332.
+
 [^261]: Friedrich A. von Hayek, The Denationalization ofMoney (London: Institute of Economic Affairs, 1976), p.47.
+
 [^262]: See Chapter 1, note 6.
+
 [^263]: Hayek, op. cit., p.40.
+
 [^264]: Ibid.
+
 [^265]: See Lawrence White, Free Banking in Britain (London: Institute of Economic Affairs, 1995).
+
 [^266]: Michael Prowse, "Bring Back Gold," Financial Times, February 5, 1996, p.12.
+
 [^267]: Davidson and Rees-Mogg, op. cit., p.203.
+
 [^268]: Lane, "Economic Consequences of Organized Violence," op. ciL, p.413.
+
 [^269]: Inflation had another lure during the industrial period when prices and wages were downwardly inflexible. Modest inflation increased output by reducing real wages and prices.
+
+::: {.content-visible when-format=latex}
+\setsubtitle{The Revolution of Earnings Capacity in a World without Jobs}
+:::

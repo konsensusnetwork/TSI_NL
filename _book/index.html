@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="James Dale Davidson &amp; Lord William Rees-Mogg">
-<meta name="dcterms.date" content="2024-09-16">
+<meta name="dcterms.date" content="2024-09-10">
 
 <title>The Sovereign Individual</title>
 <style>
@@ -33,20 +33,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./chapters/ch01.html" rel="next">
+<link href=".//figures/freestarfish.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
+  "panel-placement": "start",
   "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
@@ -54,7 +56,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,204 +70,279 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-custom-toc .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-custom-toc'] = new List('listing-custom-toc', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="The Sovereign Individual">
-<meta property="og:description" content="Mastering the Transition to the Information AGe">
-<meta property="og:image" content="./cover.png">
+<meta property="og:description" content="Mastering The Transition to the Information Age">
+<meta property="og:image" content="cover.png">
 <meta property="og:site_name" content="The Sovereign Individual">
 <meta name="twitter:title" content="The Sovereign Individual">
-<meta name="twitter:description" content="Mastering the Transition to the Information AGe">
-<meta name="twitter:image" content="./cover.png">
+<meta name="twitter:description" content="Mastering The Transition to the Information Age">
+<meta name="twitter:image" content="cover.png">
 <meta name="twitter:site" content="@konsensusn">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./cover.png" alt="Cover" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">The Sovereign Individual</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/konsensusnetwork/TSI_EN"> <i class="bi bi-github" role="img" aria-label="GitHub">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-book" role="img" aria-label="Book">
 </i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">Read online</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://bitcoinbook.shop/"> <i class="bi bi-shop" role="img" aria-label="Shop">
+  <li class="nav-item">
+    <a class="nav-link" href="https://bitcoinbook.shop/products/das-souverane-individuum"> <i class="bi bi-shop" role="img" aria-label="Shop">
 </i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">Get the paperback in Presale!</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://github.com/konsensusnetwork/TSI_EN" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">CHAPTER 1: THE TRANSITION IN THE YEAR 2000</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">CHAPTER 2: MEGAPOLITICAL TRANSFORMATIONS IN HISTORICAL PERSPECTIVE</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CHAPTER 3: EAST OF EDEN The Agricultural Revolution and the Sophistication of Violence</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">CHAPTER 4: THE LAST DAYS OF POLITICS Parallels Between the Senile Decline of the Holy Mother Church and the Nanny State</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Chapter 5: THE LIFE AND HEALTH OF THE NATIONSTATE - Democracy and Nationalism as Resource Strategies in the Age of Violence</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">CHAPTER 6: THE MEGAPOLITICS OF THE INFORMATION AGE - The Triumph of Efficiency over Power</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">TRANSCENDING LOCALITY: The Emergence of the Cybereconomy</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch08.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">CHAPTER 8: THE END OF EGALITARIAN ECONOMICS: The Revolution in Earnings Capacity in a World Without Jobs</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">CHAPTER 9: NATIONALISM, REACTION, AND THE NEW LUDDITES</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Chapter 10: THE TWILIGHT OF DEMOCRACY</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./chapters/ch11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">CHAPTER 11: MORALITY AND CRIME IN THE “NATURAL ECONOMY” OF THE INFORMATION AGE</span></span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="cover.png" class="about-image
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">The Sovereign Individual</h1>
-<p class="subtitle lead">Mastering the Transition to the Information AGe</p>
+<p class="subtitle lead">Mastering The Transition to the Information Age</p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
+<div class="quarto-title-meta column-page">
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
              <p>James Dale Davidson &amp; Lord William Rees-Mogg </p>
           </div>
   </div>
-    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 16, 2024</p>
+      <p class="date">September 10, 2024</p>
     </div>
   </div>
-  
-    
   </div>
-  
-
-
 </header>
-
-
-
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1><p><img src="cover.png" title="The Sovereign Individual" class="quarto-cover-image img-fluid"></p>
-<p>Two renowned investment advisers and authors of the bestseller <em>The Great Reconing</em> bring to light both currents of the disaster and the potential for prosperity and renewal in the face of radical changes in human history as we move into the next century. <em>The Sovereign Individual</em> details strategies necessary for adapting financially to the next phase of Western civilization.</p>
-<p>Few observers of the late twentieth century have their fingers so presciently on the pulse of the global political and economic realignment ushering in the new millenium as do James Dale Davidson and Lord William Rees-Mogg. Their bold prediction of disaster on Wall Street in <em>Blood in the Streets</em> was borne out by Black Tuesday. In their unseuing bestseller, <em>The Great REckoning</em>, published just weeks before the coup attempt against Gorbachev, the analyzed the pending collapse of the Soviet Union and foretold the civil war in Yugoslavia and other events that have proved to be among the most searing developments of the past few years.</p>
-<p>In <em>The Sovereign Individual</em>, Davidson and Rees-Mogg explore the greatest economic and political transition in centuries — the shift from an industiral to an information-based society. This transition, which they have termed “the fourth stage of human society”, will liberate individuals as never before, irrevocably altering the power of government. This outstanding book will replace false hopes and fictions with new understanding and clarified values.</p>
+    <div class="about-links">
+  <a href="/chapters/ch01.html" class="about-link" rel="" target="">
+    <i class="bi bi-book"></i>
+     <span class="about-link-text">Chapter 1</span>
+  </a>
+  <a href="https://bitcoinbook.shop" class="about-link" rel="" target="">
+    <i class="bi bi-shop"></i>
+     <span class="about-link-text">Presale</span>
+  </a>
+  <a href="https://amazon.com" class="about-link" rel="" target="">
+    <i class="bi bi-amazon"></i>
+     <span class="about-link-text">Amazon</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+<section id="about-this-book" class="level2 unnumbered unlisted">
+<h2 class="unnumbered unlisted" data-anchor-id="about-this-book">About this book</h2>
+<p>The two renowned investment advisors and authors of the bestseller <em>The Great Reckoning</em> examine both catastrophic influences and the potential for prosperity and renewal in light of radical changes in human history. The Sovereign Individual outlines strategies necessary to financially prepare for the next phase of Western civilization.</p>
+<p>Few observers of the late twentieth century had their fingers so presciently on the pulse of the global political and economic reorganization that ushered in the new millennium as James Dale Davidson and Lord William Rees-Mogg. Their bold prediction of a Wall Street catastrophe in Blood in the Streets was confirmed on Black Tuesday. In their subsequent bestseller The Great Reckoning, published just weeks before the coup attempt against Gorbachev, they analyzed the impending collapse of the Soviet Union and predicted the civil war in Yugoslavia and other events that proved to be some of the most shocking developments of recent years.</p>
+<p>In The Sovereign Individual, Davidson and Rees-Mogg explore the greatest economic and political transformation in centuries - the transition from an industrial to an information society. This transition, which they describe as “the fourth stage of human society,” will liberate the individual as never before and irrevocably change the power of governments. This outstanding book will replace false hopes and fictions with new understanding and enlightened values.</p>
+</section>
+<section id="content" class="level2">
+<h2 data-anchor-id="content">Content</h2>
+<div id="sample-listings">
+</div>
 
 
 </section>
-
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-table" id="listing-custom-toc">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Reading Time
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1740057412643" data-listing-reading-time-sort="87" data-listing-word-count-sort="17251" data-listing-title-sort="THE TRANSITION IN THE YEAR 2000" data-listing-filename-sort="ch01.qmd">
+<td>
+<a href="./chapters/ch01.html" class="title listing-title">THE TRANSITION IN THE YEAR 2000</a>
+</td>
+<td>
+<span class="listing-reading-time">87 min</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1740057412645" data-listing-reading-time-sort="46" data-listing-word-count-sort="9145" data-listing-title-sort="MEGAPOLITICAL TRANSFORMATIONS IN HISTORICAL PERSPECTIVE" data-listing-filename-sort="ch02.qmd">
+<td>
+<a href="./chapters/ch02.html" class="title listing-title">MEGAPOLITICAL TRANSFORMATIONS IN HISTORICAL PERSPECTIVE</a>
+</td>
+<td>
+<span class="listing-reading-time">46 min</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1740059466689" data-listing-reading-time-sort="48" data-listing-word-count-sort="9499" data-listing-title-sort="EAST OF EDEN" data-listing-filename-sort="ch03.qmd">
+<td>
+<a href="./chapters/ch03.html" class="title listing-title">EAST OF EDEN</a>
+</td>
+<td>
+<span class="listing-reading-time">48 min</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1740072229332" data-listing-reading-time-sort="69" data-listing-word-count-sort="13649" data-listing-title-sort="THE LAST DAYS OF POLITICS" data-listing-filename-sort="ch04.qmd">
+<td>
+<a href="./chapters/ch04.html" class="title listing-title">THE LAST DAYS OF POLITICS</a>
+</td>
+<td>
+<span class="listing-reading-time">69 min</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1740072227381" data-listing-reading-time-sort="55" data-listing-word-count-sort="10876" data-listing-title-sort="THE LIFE AND HEALTH OF THE NATIONSTATE" data-listing-filename-sort="ch05.qmd">
+<td>
+<a href="./chapters/ch05.html" class="title listing-title">THE LIFE AND HEALTH OF THE NATIONSTATE</a>
+</td>
+<td>
+<span class="listing-reading-time">55 min</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1740127642810" data-listing-reading-time-sort="93" data-listing-word-count-sort="18584" data-listing-title-sort="THE MEGAPOLITICS OF THE INFORMATION AGE" data-listing-filename-sort="ch06.qmd">
+<td>
+<a href="./chapters/ch06.html" class="title listing-title">THE MEGAPOLITICS OF THE INFORMATION AGE</a>
+</td>
+<td>
+<span class="listing-reading-time">93 min</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-file-modified-sort="1740128022279" data-listing-reading-time-sort="61" data-listing-word-count-sort="12083" data-listing-title-sort="TRANSCENDING LOCALITY" data-listing-filename-sort="ch07.qmd">
+<td>
+<a href="./chapters/ch07.html" class="title listing-title">TRANSCENDING LOCALITY</a>
+</td>
+<td>
+<span class="listing-reading-time">61 min</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-file-modified-sort="1740128248329" data-listing-reading-time-sort="69" data-listing-word-count-sort="13689" data-listing-title-sort="THE END OF EGALITARIAN ECONOMICS" data-listing-filename-sort="ch08.qmd">
+<td>
+<a href="./chapters/ch08.html" class="title listing-title">THE END OF EGALITARIAN ECONOMICS</a>
+</td>
+<td>
+<span class="listing-reading-time">69 min</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-file-modified-sort="1740129396385" data-listing-reading-time-sort="153" data-listing-word-count-sort="30426" data-listing-title-sort="NATIONALISM, REACTION, AND THE NEW LUDDITES" data-listing-filename-sort="ch09.qmd">
+<td>
+<a href="./chapters/ch09.html" class="title listing-title">NATIONALISM, REACTION, AND THE NEW LUDDITES</a>
+</td>
+<td>
+<span class="listing-reading-time">153 min</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-file-modified-sort="1740129172473" data-listing-reading-time-sort="64" data-listing-word-count-sort="12727" data-listing-title-sort="THE TWILIGHT OF DEMOCRACY" data-listing-filename-sort="ch10.qmd">
+<td>
+<a href="./chapters/ch10.html" class="title listing-title">THE TWILIGHT OF DEMOCRACY</a>
+</td>
+<td>
+<span class="listing-reading-time">64 min</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-file-modified-sort="1740129357416" data-listing-reading-time-sort="84" data-listing-word-count-sort="16729" data-listing-title-sort="MORALITY AND CRIME IN THE &quot;NATURAL ECONOMY&quot; OF THE INFORMATION AGE" data-listing-filename-sort="ch11.qmd">
+<td>
+<a href="./chapters/ch11.html" class="title listing-title">MORALITY AND CRIME IN THE “NATURAL ECONOMY” OF THE INFORMATION AGE</a>
+</td>
+<td>
+<span class="listing-reading-time">84 min</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -287,13 +363,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -687,12 +756,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-page">
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./chapters/ch01.html" class="pagination-link" aria-label="CHAPTER 1: THE TRANSITION IN THE YEAR 2000">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">CHAPTER 1: THE TRANSITION IN THE YEAR 2000</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./chapters/ch01.html" class="pagination-link" aria-label="THE TRANSITION IN THE YEAR 2000">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">THE TRANSITION IN THE YEAR 2000</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -700,19 +769,58 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © 2024 Konsensus Network
+  </li>  
+</ul>
     </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
 <p>License</p>
 </a>
   </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./publisher.html">
+<p>About the publisher</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./presale.html">
+<p>Presale</p>
+</a>
+  </li>  
 </ul>
-    </div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/konsensusnetwork/TSI_EN/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/konsensusnetwork/TSI_EN/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/konsensusn">
+      <i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/konsensusnetwork">
+      <i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/konsensusnetwork">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/konsensusnetwork">
+      <i class="bi bi-youtube" role="img" aria-label="YouTube">
+</i> 
+    </a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>

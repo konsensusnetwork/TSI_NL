@@ -1,0 +1,5 @@
+# Presale {.unnumbered .content-visible when-format="html"}
+
+Get the book at a discounted price during the presale.
+
+{{< include buy-button.qmd >}}

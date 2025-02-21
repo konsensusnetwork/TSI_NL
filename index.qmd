@@ -1,7 +1,54 @@
-# Preface {.unnumbered}
+---
+about:
+  template: trestles
+  image: cover.png
+  links:
+    - icon: book
+      href: /chapters/ch01.html
+      text: "Chapter 1"
+      aria-label: "Chapter 1"
+    - icon: shop
+      href: https://bitcoinbook.shop
+      text: "Presale" 
+      aria-label: "Online bookstore"
+    - icon: amazon
+      href: https://amazon.com
+      text: "Amazon"
+      aria-label: "Amazon"              
+navbar: true
+sidebar: false
+page-layout: full
+format:
+  html:
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+      body-width: 1400px
+      gutter-width: 25px
+    toc: false
+listing:
+  id: custom-toc
+  contents: chapters
+  sort: false
+  type: table
+  fields:
+    - title
+    - reading-time
+  sort-ui: false
+  filter-ui: false
+---
 
-Two renowned investment advisers and authors of the bestseller *The Great Reconing* bring to light both currents of the disaster and the potential for prosperity and renewal in the face of radical changes in human history as we move into the next century. *The Sovereign Individual* details strategies necessary for adapting financially to the next phase of Western civilization.
+::: {.content-hidden when-format="pdf"}
+## About this book {.unnumbered .unlisted}
 
-Few observers of the late twentieth century have their fingers so presciently on the pulse of the global political and economic realignment ushering in the new millenium as do James Dale Davidson and Lord William Rees-Mogg. Their bold prediction of disaster on Wall Street in *Blood in the Streets* was borne out by Black Tuesday. In their unseuing bestseller, *The Great REckoning*, published just weeks before the coup attempt against Gorbachev, the analyzed the pending collapse of the Soviet Union and foretold the civil war in Yugoslavia and other events that have proved to be among the most searing developments of the past few years.
+The two renowned investment advisors and authors of the bestseller *The Great Reckoning* examine both catastrophic influences and the potential for prosperity and renewal in light of radical changes in human history. The Sovereign Individual outlines strategies necessary to financially prepare for the next phase of Western civilization.
 
-In *The Sovereign Individual*, Davidson and Rees-Mogg explore the greatest economic and political transition in centuries --- the shift from an industiral to an information-based society. This transition, which they have termed "the fourth stage of human society", will liberate individuals as never before, irrevocably altering the power of government. This outstanding book will replace false hopes and fictions with new understanding and clarified values.
+Few observers of the late twentieth century had their fingers so presciently on the pulse of the global political and economic reorganization that ushered in the new millennium as James Dale Davidson and Lord William Rees-Mogg. Their bold prediction of a Wall Street catastrophe in Blood in the Streets was confirmed on Black Tuesday. In their subsequent bestseller The Great Reckoning, published just weeks before the coup attempt against Gorbachev, they analyzed the impending collapse of the Soviet Union and predicted the civil war in Yugoslavia and other events that proved to be some of the most shocking developments of recent years.
+
+In The Sovereign Individual, Davidson and Rees-Mogg explore the greatest economic and political transformation in centuries - the transition from an industrial to an information society. This transition, which they describe as "the fourth stage of human society," will liberate the individual as never before and irrevocably change the power of governments. This outstanding book will replace false hopes and fictions with new understanding and enlightened values.
+
+## Content
+::: {#sample-listings}
+:::
+
+:::

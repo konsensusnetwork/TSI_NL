@@ -1,30 +1,64 @@
 project:
   type: book
+  preview:
+    port: 4200
+    browser: false
 
 book:
   title: "The Sovereign Individual"
-  subtitle: "Mastering the Transition to the Information AGe"
+  output-file: main
+  subtitle: "Mastering The Transition to the Information Age"
   author: "James Dale Davidson & Lord William Rees-Mogg"
-  date: "9/16/2024"
-  cover-image: cover.png
-  isbn: 978-3-16-123450-0
-  license: CC-BY-4.0
+  date: "9/10/2024"
+  image: cover.png
+  image-alt: "The Sovereign Individual"
+  isbn: 978-9916-000-00-0
   language: en
-  publisher: Simon & Schuster New Yrok
+  original-title: "The Sovereign Individual"
+  publisher: Konsensus Network
+  original-publisher: Simon & Schuster
+  favicon: /figures/freestarfish.png
+  repo-url: https://github.com/konsensusnetwork/TSI_EN
+  repo-actions: [edit, source]
+  search:
+    location: sidebar
+    type: overlay
+  sidebar:
+    style: floating
+    border: true
   navbar:
-    logo: cover.png
-    logo-alt: Cover
-    right:
-      - icon: github
-        href: https://github.com/konsensusnetwork/TSI_EN
-        aria-label: GitHub
+    left:
+      - icon: book
+        text: "Read online"
+        href: index.qmd
+        aria-label: Book
       - icon: shop
-        href: https://bitcoinbook.shop/
+        text: "Get the paperback in Presale!"
+        href: https://bitcoinbook.shop/products/das-souverane-individuum
         aria-label: Shop
   page-footer:
+    left:
+      - text: "© 2024 Konsensus Network"
     center:
       - text: "License"
         href: index.qmd
+      - text: "About the publisher"
+        href: publisher.qmd
+      - text: "Presale"
+        href: presale.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/konsensusn
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/konsensusnetwork
+        aria-label: Github
+      - icon: linkedin
+        href: https://www.linkedin.com/konsensusnetwork
+        aria-label: LinkedIn
+      - icon: youtube
+        href: https://www.youtube.com/konsensusnetwork
+        aria-label: YouTube
   open-graph: true
   twitter-card:
     site: "@konsensusn"
@@ -44,22 +78,37 @@ book:
 
 format:
   html:
-    theme: cosmo
-    number-depth: 1
-    reader-mode: true
-  latex:
+    lang: en
+    theme:
+      light: [flatly, theme.scss, theme-light.scss]
+    number-depth: 2
+    grid:
+      sidebar-width: 500px
+      body-width: 900px
+      margin-width: 350px
+      gutter-width: 1em
+    toc: true
+    toc-location: left
+    reference-location: margin
+  pdf:
+    lang: en
     documentclass: memoir
-    classoption: smalldemyvopaper,11pt,twoside,onecolumn,openright,extrafontsizes
+    classoption: smalldemyvopaper,10pt,twoside,onecolumn,openright,extrafontsizes,hidelinks
     papersize: a5
-    secnumdepth: 1
-    geometry:
-      - top=18mm
-      - bottom=28mm
-      - left=18mm
-      - right=18mm
-    epub:
-      creator: Konsensus Network
-
-
-
-
+    toc-depth: 1
+    toc-title: Contents
+    keep-tex: true
+    colorlinks: false
+    include-in-header:
+      - preamble.tex
+  epub:
+    cover-image: cover.png
+    cover-image-alt: |
+      The Sovereign Individual book cover
+    creator: Konsensus Network
+    toc: true
+    toc-depth: 1
+    toc-title: Contents
+    lang: "en-US"
+    css: epub.css
+    number-depth: 2

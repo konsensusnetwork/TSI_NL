@@ -1,4 +1,8 @@
-# Chapter 5: THE LIFE AND HEALTH OF THE NATIONSTATE - Democracy and Nationalism as Resource Strategies in the Age of Violence
+# THE LIFE AND HEALTH OF THE NATIONSTATE
+
+:::{.content-hidden when-format=latex}
+*Democracy and Nationalism as Resource Strategies in the Age of Violence*
+:::
 
 > "Most important of all, success in war depends on having enough money to provide whatever the enterprise needs." [^163] - ROBERT DE BALSAC, 1502
 
@@ -102,9 +106,7 @@ Like typical enterprises in competitive markets, even a monopoly controlled by i
 
 ## THE ROLE OF DEMOCRACY: VOTERS AS EMPLOYEES AND CUSTOMERS
 
-Lane treats democracy in the conventional way in assuming that it brings
-
-violence-using and violence-producing enterprises "increasingly under the control of their customers."[^173] This is certainly the politically correct conclusion. But is it true? We think not. Look closely at how modern democracies function.
+Lane treats democracy in the conventional way in assuming that it brings violence-using and violence-producing enterprises "increasingly under the control of their customers."[^173] This is certainly the politically correct conclusion. But is it true? We think not. Look closely at how modern democracies function.
 
 First of all, they have few characteristics of those competitive industries where the terms of trade are clearly controlled by their customers. For one thing, democratic governments typically spend only a bare fraction of their total outlays on the service of protection, which is their core activity. In the United States, for example, state and local governments spend just 3.5 percent of their total outlays on the provision of police, as well as courts and prisons. Add military spending, and the fraction of revenues devoted to protection is still only about 10 percent. Another revealing hint that mass democracy is not controlled by its customers is the fact that contemporary political culture, inherited from the Industrial Age, would consider it outrageous if policies on crucial issues were actually informed by the interests of the people who pay the bills. Imagine the uproar if a U.S. president or a British prime minister proposed to allow the group of citizens who pay the majority of the taxes to determine which programs of government should continue and which groups of employees should be fired. This would deeply offend expectations of how government should operate, in a way that allowing government employees to determine whose taxes should be raised would not.
 
@@ -154,7 +156,7 @@ Rising real incomes allowed governments to adopt a strategy that placed more res
 
 After all, the typical farmer, small merchant, or worker possessed vanishingly small resources as compared to the state itself. It was not even remotely possible that the typical private individual in Western Europe on the eve of the French Revolution could have effectively bargained with the state to reduce his tax rate, or mounted an effective resistance to government plans and policies that threatened his interests. But this is precisely what powerful private magnates had done for centuries and would continue to do. They effectively resisted and bargained with rulers, restraining their ability to commandeer resources.
 
-> "Going to war accelerated the move from indirect to direct rule. Almost any state that makes war finds that it cannot pay for the effort from its accumulated reserves and current revenues. Almost all warmaking states borrow extensively, raise taxes, and seize the means of combat-including men-from reluctant citizens who have other uses for their resources."[^176] CHARLES TILLY
+> "Going to war accelerated the move from indirect to direct rule. Almost any state that makes war finds that it cannot pay for the effort from its accumulated reserves and current revenues. Almost all warmaking states borrow extensively, raise taxes, and seize the means of combat-including men-from reluctant citizens who have other uses for their resources."[^176] - CHARLES TILLY
 
 The example of Poland in the mid-eighteenth century illustrates this perfectly. In 1760, the Polish national army comprised eighteen thousand soldiers. This was a meager force compared to the armies commanded by rulers of neighboring Austria, Prussia, and Russia, the least of whom could control a standing army of 100,000 soldiers. In fact, the Polish national army in 1760 was small even in comparison with other units under arms within Poland. The combined forces of the Polish nobility were thirty thousand men.[^177]
 
@@ -166,9 +168,7 @@ As it turned out, the military disadvantage of failing to circumvent the wealthy
 
 ### After the French Revolution
 
-The French Revolution resulted in an even greater surge in the size of armies, a
-
-fact that demonstrated the strength of the democratic strategy when returns to violence were rising. The bargain governments struck from the French Revolution onward was to provide an unprecedented degree of involvement in the lives of average people, in exchange for their participation in wars in place of mercenaries, and paying a growing burden of taxes from their rising incomes.
+The French Revolution resulted in an even greater surge in the size of armies, a fact that demonstrated the strength of the democratic strategy when returns to violence were rising. The bargain governments struck from the French Revolution onward was to provide an unprecedented degree of involvement in the lives of average people, in exchange for their participation in wars in place of mercenaries, and paying a growing burden of taxes from their rising incomes.
 
 As Tilly said,
 
@@ -228,7 +228,7 @@ Indeed, future historians may report that we have already seen the first postmod
 
 The shift in technology that is eroding industrialism has trapped many countries with governments that no longer work. Or work badly. Legislatures, in particular, appear to be increasingly dysfunctional. They grind out laws that might have been merely stupid fifty years ago but are dangerous today. This was spectacularly obvious in Peru, where the internal sovereignty of the state had almost collapsed by 1993.
 
-> "Attacks, kidnappings, rapes and murders have coincided with increasingly aggressive driving habits and unsafe streets. The police have gradually lost control of the situation and some of their members have been involved in scandals and become seasoned criminals . . . People have gradually grown used to living outside the law. Theft, illegal seizure and factory takeovers have become everyday occurrences."[^184] HERNANDO DE SOTO
+> "Attacks, kidnappings, rapes and murders have coincided with increasingly aggressive driving habits and unsafe streets. The police have gradually lost control of the situation and some of their members have been involved in scandals and become seasoned criminals . . . People have gradually grown used to living outside the law. Theft, illegal seizure and factory takeovers have become everyday occurrences."[^184] - HERNANDO DE SOTO
 
 ### Peru in Ruins
 
@@ -236,9 +236,7 @@ In a sense, Peru was no longer a modern nationstate in 1993. It still had a flag
 
 Representative democracy in Peru was like a pair of loaded dice. As a decision mechanism for aggrandizing the state, it was unsurpassed. But when new circumstances called for devolving power, the inherent biases that made democracy so useful under the old megapolitical conditions made it increasingly dysfunctional. The very laws passed by the congress were rapidly destroying any foundation of value or respect for the law. As de Soto put it in The Other Path, "Small interest groups fight among themselves, cause bankruptcies, implicate public officials. Governments hand out privileges. The law is used to give and take away far more than morality permits." [^185] A congress like that in Peru, entirely in thrall to special-interest groups, has all the moral stature of a gang of fences auctioning off stolen goods. It made the free market illegal, and consequently made the law ridiculous. As de Soto writes of the pre-Fujimori period:
 
-> A complete subversion of ends and means has turned the life of Peruvian society upside down, to the point that there are acts which, although officially criminal, are no longer condemned by the collective consciousness. Smuggling is a case in point. Everyone, from the aristocratic lady to the humblest man, acquires smuggled goods. No one has scruples about it; on the contrary, it is viewed as a kind of challenge to individual ingenuity or as revenge against the state.
-> This infiltration of violence and criminality into everyday life has been accompanied by increasing poverty and deprivation. In general terms, Peruvians' real average income had declined steadily over the last ten years and is now at the level of twenty years ago. Mountains of garbage pile up on all sides. Night and day, legions of beggars, car washers, and scavengers besiege passersby, asking for money. The mentally ill swarm naked in the streets, stinking of urine. Children, single mothers, and cripples beg for alms on every corner.
-> The traditional centralism of our society has proved clearly incapable of satisfying the manifold needs of a country in transition.[^186]
+> A complete subversion of ends and means has turned the life of Peruvian society upside down, to the point that there are acts which, although officially criminal, are no longer condemned by the collective consciousness. Smuggling is a case in point. Everyone, from the aristocratic lady to the humblest man, acquires smuggled goods. No one has scruples about it; on the contrary, it is viewed as a kind of challenge to individual ingenuity or as revenge against the state. This infiltration of violence and criminality into everyday life has been accompanied by increasing poverty and deprivation. In general terms, Peruvians' real average income had declined steadily over the last ten years and is now at the level of twenty years ago. Mountains of garbage pile up on all sides. Night and day, legions of beggars, car washers, and scavengers besiege passersby, asking for money. The mentally ill swarm naked in the streets, stinking of urine. Children, single mothers, and cripples beg for alms on every corner. The traditional centralism of our society has proved clearly incapable of satisfying the manifold needs of a country in transition.[^186]
 
 De Soto described the abandonment of the grotesque legal economy for the black market that was under way before Fujimori padlocked the congress as "an invisible revolution."
 
@@ -261,26 +259,49 @@ Few have begun to think about the incompatibility between some of the institutio
 When the Berlin Wall fell in 1989, it not only signaled the end of the Cold War; it was also the outer sign of a silent earthquake in the foundations of power in the world. It was the end of the long period of rising returns to violence. The fall of Communism, which we forecast in 1987 in Blood in the Streets and even earlier in our monthly newsletter, Strategic Investment, was not merely the repudiation of an ideology. It was the outward marker of the most important development in the history of violence over the past five centuries. If our analysis is correct, the organization of society is bound to change to reflect growing diseconomies of scale in the employment of violence. The boundaries within which the future must lie have been redrawn.
 
 [^163]: Quoted in Tilly, op. cit., p.84.
-[^164]: See John Keegan, _A History of Warfare_ (London: Hutchinson, 1993), p.321.
+
+[^164]: See John Keegan, *A History of Warfare* (London: Hutchinson, 1993), p.321.
+
 [^165]: Jim Taylor and Watts Wacker, The 500-Year Delta: What Happens After What Comes Next. New York: HarperCollins, 1997, pp. 38-39.
+
 [^166]: Ibid., p. 39.
+
 [^167]: The Cambridge Ancient History, op. cit., pp.263-64.
+
 [^168]: Cook et al., op. cit., p.268.
-[^169]: For more on the logic of hydraulic societies, see Karl A. Wittfogel, _Oriental Despotism: A Comparative Study of Total Power_ (New Haven: Yale University Press, 1957).
+
+[^169]: For more on the logic of hydraulic societies, see Karl A. Wittfogel, *Oriental Despotism: A Comparative Study of Total Power* (New Haven: Yale University Press, 1957).
+
 [^170]: Tilly, op. cit., p.28.
+
 [^171]: Lane, "Consequences of Organized Violence," op. cit., p.406.
+
 [^172]: Ibid.
+
 [^173]: Ibid., p.412.
+
 [^174]: Tilly, op. cit., pp.96-126.
+
 [^175]: Ibid., p.130.
+
 [^176]: Ibid., p.110.
+
 [^177]: This example in ibid., p.139.
+
 [^178]: Ibid., p.115.
-[^179]: See Mancur Olson, _The Logic of Collective Action_ (Cambridge: Harvard University Press, 1965).
-[^180]: Josep R. Llobera, _The God of Modernity: The Development of Nationalism in Western Europe_ (Oxford: Berg Publishers, 1994), pp. ix-x.
+
+[^179]: See Mancur Olson, *The Logic of Collective Action* (Cambridge: Harvard University Press, 1965).
+
+[^180]: Josep R. Llobera, *The God of Modernity: The Development of Nationalism in Western Europe* (Oxford: Berg Publishers, 1994), pp. ix-x.
+
 [^181]: Ibid., p. xiii.
-[^182]: See William McNeill, _Polyethnicity and National Unity in World History_ (Toronto: University of Toronto Press, 1986).
+
+[^182]: See William McNeill, *Polyethnicity and National Unity in World History* (Toronto: University of Toronto Press, 1986).
+
 [^183]: Ibid., p.7.
-[^184]: Hernando de Soto, _The Other Path_ (New York: Harper & Row, 1989).
+
+[^184]: Hernando de Soto, *The Other Path* (New York: Harper & Row, 1989).
+
 [^185]: Ibid.
+
 [^186]: Ibid., p.6.

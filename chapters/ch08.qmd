@@ -1,4 +1,8 @@
-# CHAPTER 8: THE END OF EGALITARIAN ECONOMICS: The Revolution in Earnings Capacity in a World Without Jobs
+# THE END OF EGALITARIAN ECONOMICS
+
+:::{.content-hidden when-format=latex}
+*The Revolution in Earnings Capacity in a World Without Jobs*
+:::
 
 > "God is not mocked: for whatsoever a man soweth, that shall he also reap." - GALATIANS 6:7
 
@@ -24,9 +28,27 @@ In the late nineteenth century a number of economists, of whom William Stanley J
 
 Otto Ammon was interested in the distribution of ability in society, and its relationship to the distribution of income and status. He took as his starting point the probable occurrence of total scores from four dice, each with six sides. Out of 1,296 possible throws, some totals will occur more often than others.
 
-The sum of 24 spots will appear once.
-
-TBC: TABLE
+*The sum of 24 points will occur once.
+The sum of 23 points will occur 4 times.
+The sum of 22 points will occur 10 times.
+The sum of 21 points will occur 20 times.
+The sum of 20 points will occur 35 times.
+The sum of 19 points will occur 56 times.
+The sum of 18 points will occur 80 times.
+The sum of 17 points will occur 104 times.
+The sum of 16 points will occur 125 times.
+The sum of 15 points will occur 140 times.
+The sum of 14 points will occur 146 times.
+The sum of 13 points will occur 140 times.
+The sum of 12 points will occur 125 times.
+The sum of 11 points will occur 104 times.
+The sum of 10 points will occur 80 times.
+The sum of 9 points will occur 56 times.
+The sum of 8 points will occur 35 times.
+The sum of 7 points will occur 20 times.
+The sum of 6 points will occur 10 times.
+The sum of 5 points will occur 4 times.
+The sum of 4 points will occur once.*
 
 It is immediately apparent that high and low scores are both comparatively rare. There are two possible totals, but the top four of these only occur thirty-five times. The middle seven group of scores can be expected to occur 884 times; the middle third of possible scores is the result in more than two-thirds of all throws. This produces the characteristic crowding toward the center of probability theory.
 
@@ -338,38 +360,77 @@ Power will once again be exercised on a small scale. Enclaves and provinces may 
 As we explore next, whether these developments can or should proceed in the face of opposition from legions of losers will be among the more Important controversies of the Information Age.
 
 [^270]: Benjamin Schwarz, '~American Inequality: Its History and Scary Future," New York Times, December 19, 1995, p. A25.
+
 [^271]: Adna Ferrin Weber, The Growth of Cities in the Nineteenth Century (New York: Macmillan, 1899; reprinted by Cornell University Press, 1963), p.249.
+
 [^272]: Bill Bryson, The Lost Continent (New York: Harper Perennial, 1989), p.72.
+
 [^273]: This article is reprinted in vol.4 of Adrian Darnell's collection, Early Mathematical Economists, 6 vols. (London: Pickering & Chatto, 1991).
+
 [^274]: For example, see Weber, op. cit., p.2.
+
 [^275]: Clive Jenkins and Barrie Sherman, The Collapse of Work (London: Methuen, 1979),p. 103.
+
 [^276]: Robert H. Frank and Philip J. Cook, The Winner-Take-All Societv (New York: The Free Press, 1995).
+
 [^277]: Clay Chandler, 'Buchanan's Success Frightens Business," Washington Post, February 22, 1996, p. D12.
+
 [^278]: Stephanie Flanders and Martin Wolfe, "Haunted by the Trade Spectre," Financial Times, July 24, 1995, p.11. They quote from the World Bank's most recent world development report, on workers in an integrating world economy.
+
 [^279]: See Mancur Olson, "Diseconomies of Scale and Development," Cato Journal, vol.7, no.1 (Spring/Summer 1987).
+
 [^280]: Ibid.
+
 [^281]: Basil Davidson, The Black Mans' Burden: Africa and the Curse of the Nation State (New York: Times Books, 1992), p.290.
+
 [^282]: Olson, op. cit.
+
 [^283]: Adam Smith, The Wealth of Nations, p.724. This point was suggested by an argument by Edwin G. West in his Adam Smith and Modern Economics (Aldershot, England: Edward Elgar Publishing, 1990), pp.88-89.
+
 [^284]: Fritz Rorig, The Medieval Town (Berkeley: University of California Press, 1967), p.28.
+
 [^285]: Albert 0. Hirschman, Exit, Voice, and Loyalty (Cambridge: Harvard University Press, 1969), p.81.
+
 [^286]: Tom Peters and George Gilder, "City vs. Country: Tom Peters & George Gilder Debate the Impact of Technology on Location," Forbes, February 1995.
+
 [^287]: Weber, op. cit., p.21.
+
 [^288]: Ibid., p.46 for London, p.73 for Paris.
+
 [^289]: Ibid., p.120.
+
 [^290]: Ibid., p.95.
+
 [^291]: Ibid., p.84.
+
 [^292]: Ibid., p.119.
+
 [^293]: Ibid., p.101.
+
 [^294]: Ibid., p.5.
+
 [^295]: See Ronald Coase, "The Nature of the Firm," reprinted in Louis Putterman and Randall S. Kroszner, eds., The Economic Nature of the Firm: A Reader 2nd ed. (Cambridge: Cambridge University Press, 1996), pp.89-104.
+
 [^296]: Quoted by West, op. cit., p.58; see also Oliver E. Williamson, "The Organization of Work: A Comparative Insititutional Assessment," Journal of Economic Behaviour and Organisation, vol.1, no.1.
+
 [^297]: Quoted by West, op. cit., p.59; see also Williamson, op. cit.
+
 [^298]: Richard Cyert and James March, A Behavioral Theory of the Firm (Englewood Cliffs, N.J.: Prentice-Hall, 1983).
+
 [^299]: Chris Dray~ "Civil Servants Lead Lives of Quiet Collusion," Globe and Mail, February 2, 1996, p. A14.
+
 [^300]: William Bridges, Jobsh ft: How to Prosper in a Workplace Without Jobs (Reading, Mass.: Addison-Wesley, 1994), pp.62, 64.
+
 [^301]: See Al Ehrbar, " 'Re-Engineering' Gives Firms New Efficiency, Workers the Pink Slip," Wall Street Journal, July 22, 1992, p. A14, quoted by Bridges, op. cit., p.39.
+
 [^302]: Sheryl WuDunn, "Parting Is Such Sour Sorrow: Japan's Job-for-Life Culture Painfully Expires," International Herald Tribune, June 13, 1996, p.13.
+
 [^303]: Bridges, op. cit., pp.31-32.
+
 [^304]: Ibid., p.58.
+
 [^305]: Abu-Lughod, op. cit., p.186.
+
+::: {.content-visible when-format=latex}
+\setsubtitle{}
+:::

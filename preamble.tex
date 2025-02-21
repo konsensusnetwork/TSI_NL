@@ -1,0 +1,267 @@
+% typographical packages
+\usepackage{microtype}
+\usepackage{setspace}
+\tolerance=6000
+\hyphenpenalty=1000
+
+% typographical settings for the body text
+\setlength{\parskip}{0em}
+\setlength{\parindent}{1em}
+\linespread{1}
+
+% DEFINITIONS TITLE PAGE / COPYRIGHT
+\newcommand{\titleoriginal}{The Sovereign Individual}
+\newcommand{\subtitleoriginal}{Mastering the Transition to the Information Age}
+\newcommand{\yearoriginal}{1999}
+\newcommand{\subtitletranslation}{XXX}
+\newcommand{\yeartranslation}{XXX}
+\newcommand{\stringtranslation}{XXX}
+\newcommand{\stringlicense}{XXX}
+\newcommand{\stringpublisher}{XXX}
+\newcommand{\ISBNHC}{XXX}
+\newcommand{\ISBNSC}{XXX}
+\newcommand{\ISBNEBOOK}{XXX}
+\newcommand{\ISBNAUDIO}{XXX}
+\newcommand{\press}{Konsensus Network}
+\newcommand{\translatorone}{XXX}
+\newcommand{\translators}{
+\large\textit{\stringtranslation:}\\
+\translatorone\\
+}
+
+% PHYSICAL DOCUMENT SETUP
+\setstocksize{210mm}{148mm}
+\settrimmedsize{210mm}{148mm}{*}
+\setbinding{7mm}
+\setlrmarginsandblock{15mm}{16mm}{*}
+\setulmarginsandblock{16mm}{16mm}{*}
+\setlength{\skip\footins}{18pt} % More space between the text and the footnote line
+
+% FONTS
+\usepackage{fontspec}
+\setmainfont{stone-serif}[
+    Path=./fonts/stone-serif-itc-pro/,
+    Scale=0.83,
+    Extension=.OTF,
+    UprightFont=*-Regular,
+    BoldFont=*-SemiBd,
+    ItalicFont=*-MediumIt,
+    BoldItalicFont=*-SemiBdIt
+    ]
+
+\setsansfont{stone-sans}[
+    Path=./fonts/stone-sans/,
+    Scale=0.85,
+    Extension=.otf,
+    UprightFont=*-Medium,
+    BoldFont=*-Semibold,
+    ItalicFont=*-MediumItalic,
+    BoldItalicFont=*-SemiBoldItalic
+    ]
+
+\usepackage{lettrine}
+\setcounter{DefaultLines}{3}
+\renewcommand{\DefaultLoversize}{0.1}
+\renewcommand{\DefaultLraise}{0}
+\renewcommand{\LettrineTextFont}{}
+\setlength{\DefaultFindent}{\fontdimen2\font}
+\setlength{\DefaultNindent}{0em}
+
+% custom second title page
+\makeatletter
+\newcommand*\halftitlepage{\begingroup % Misericords, T&H p 153
+  \setlength\drop{0.1\textheight}
+  %\begin{center}
+  \vspace*{\drop}
+  \rule{\textwidth}{0in}\par
+  {\Large\sffamily\thetitle\par}
+  \rule{\textwidth}{0in}\par
+  \vfill
+  %\end{center}
+\endgroup}
+\makeatother
+
+% custom title page
+\makeatletter
+\newlength\drop
+\newcommand*\titleM{\begingroup % Misericords, T&H p 153
+  \setlength\drop{0.15\textheight}
+  %\begin{center}
+  \vspace*{\drop}
+  {\HUGE\sffamily\thetitle\par}
+  \vspace{2em}
+  {\Large\sffamily\textit\subtitletranslation\par}
+  \vspace{4em}
+  \rule{5.5cm}{0.3mm}\par
+  \vspace{4em}
+  {\Large\sffamily\textit\theauthor\par}
+  \vspace{6em}
+  % {\footnotesize\sffamily\textit\translators\par}
+  \vfill
+  \includegraphics[width=3.5cm]{figures/knw.png}\par
+  %\end{center}
+\endgroup}
+\makeatother
+
+% copyright page
+\makeatletter
+\newcommand*\copyrightpage{\begingroup
+  \setlength\drop{0.1\textheight}
+  \vphantom{just for the drop}
+  \vfill
+  \begin{footnotesize}
+  \noindent \copyright\space \yearoriginal: \theauthor
+  \par\noindent \textit{\titleoriginal: \subtitleoriginal}
+  \vspace{0.5\baselineskip}
+  \par\noindent \copyright\space \yeartranslation\space \stringtranslation: \translatorone
+  \par\noindent \textit{\thetitle: \subtitletranslation}
+  \vspace{\baselineskip}
+  \par\noindent \textit{\stringlicense}
+  \vspace{0.5\baselineskip}
+  \par\noindent \stringpublisher: \href{https://konsensus.network}{\textit{konsensus.network}}
+  \vspace{0.5\baselineskip}
+  \par\noindent v1.0.0
+  \vspace{0.5\baselineskip}
+  \setlength{\parindent}{2em}% default 20pt
+  \par\noindent ISBN \ISBNHC \:Hardcover
+  \par\hspace{0.28\parindent}\ISBNSC \:Paperback
+  \par\hspace{0.28\parindent}\ISBNEBOOK \:E-book\par
+  \setlength{\parindent}{0pt}
+  \end{footnotesize}
+  \vspace{3em}
+  \par\noindent \href{https://konsensus.network}{\includegraphics[width=1cm]{figures/freestarfish.png}}
+  \par\noindent \href{https://konsensus.network}{\includegraphics[width=3.5cm]{figures/knw.png}}
+  \setcounter{footnote}{0}
+  \clearpage
+\endgroup}
+\makeatother
+
+% HEADER AND FOOTER MANIPULATION
+% for normal pages
+\nouppercaseheads
+\headsep = 4mm
+\makepagestyle{mystyle} 
+\makeevenhead{mystyle}{\scriptsize\sffamily\mdseries\thepage}{}{}
+\makeoddhead{mystyle}{\scriptsize\sffamily\mdseries\leftmark}{}{\scriptsize\sffamily\mdseries\thepage}
+\makeevenfoot{mystyle}{}{}{}
+\makeoddfoot{mystyle}{}{}{}
+\makeatletter
+
+% for pages where chapters begin
+\makepagestyle{plain}
+\makerunningwidth{plain}{\headwidth}
+\makeevenfoot{plain}{}{}{}
+\makeoddfoot{plain}{}{}{}
+\pagestyle{mystyle}
+
+\newif\ifmainmatter
+\appto\mainmatter{\mainmattertrue}
+\appto\backmatter{\mainmatterfalse}
+\appto\appendix{\mainmatterfalse}
+
+\renewcommand\chaptermark[1]{%
+  \markboth{\MakeUppercase{%
+    \ifmainmatter~\oldstylenums\thechapter.~\fi#1}}{}}%
+
+% TOC
+\usepackage[]{tocloft}
+\renewcommand{\cftsectiondotsep}{\cftnodots}
+\renewcommand{\cftpartfont}{\Large\sffamily\MakeUppercase}
+\renewcommand{\cftchapterfont}{\small\sffamily}
+\renewcommand{\cftsectionfont}{\Small\sffamily}
+\renewcommand{\cftpartpagefont}{\Large\sffamily}
+\renewcommand{\cftchapterpagefont}{\small}
+\renewcommand{\cftchapterpresnum}{KAPITEL\space}
+\renewcommand{\cftchapternumwidth}{7em}
+\setlength{\cftchapterindent}{0em}
+\setlength{\cftsectionindent}{5em}
+\setlength{\cftbeforechapterskip}{0.8em}
+\setsecnumdepth{chapter}
+\setcounter{tocdepth}{0}
+
+
+% Redefine footnote presentation
+\makeatletter
+\renewcommand\@makefntext[1]{%
+  \noindent\hb@xt@2em{% <-- Box of fixed size for footnote number and space
+    \@thefnmark\quad}% <-- Footnote number followed by a quad space
+  \parbox[t]{\dimexpr\linewidth-2em}{#1}% <-- Parbox to control the width of footnote content
+}
+\makeatother
+
+% layout check and fix
+\checkandfixthelayout
+
+% COUNTERS FOOTNOTES
+\usepackage{chngcntr}
+\counterwithout*{footnote}{chapter}
+
+% TITLE FORMATTING
+\usepackage{titlesec}
+
+% Define chapter format with titlesec
+\titleformat
+    {\chapter}[display]
+    {\huge\sffamily} % Main title font style
+    {\Large\sffamily\chaptertitlename~\thechapter} % "Chapter N" format
+    {0pt} % Space between the chapter number and title
+    {\Huge} % Chapter title formatting
+    [\vspace{10pt}\Large\textit{\chaptersubtitle}] % Subtitle formatting
+
+% Command to set the subtitle (empty by default)
+\newcommand{\chaptersubtitle}{}
+
+% Automatically render the subtitle (if set) after the chapter title
+\titleformat{\chapter}[display]
+  {\huge\sffamily}
+  {\Large\sffamily\chaptertitlename\ \thechapter}
+  {0pt}
+  {\Huge}
+  [\ifx\chaptersubtitle\empty\else\vspace{10pt}\Large\textit{\chaptersubtitle}\fi]
+
+% Command to set subtitle manually after chapter rendering
+\newcommand{\setsubtitle}[1]{%
+  \renewcommand{\chaptersubtitle}{#1}%
+  \chaptermark{\chaptersubtitle} % Update subtitle for header/footer
+}
+
+\titleformat
+  {\section}[block]
+  {\sffamily\large\bfseries}
+  {}
+  {0pt}
+  {}
+  
+\titlespacing*{\section}{0pt}{2em}{0.5em}
+
+\titleformat{\subsection}{\sffamily\bfseries}{}{}{}
+\titlespacing*{\subsection}{0pt}{2em}{0em}
+
+% QUOTE FORMATTING
+\renewenvironment{quote}%
+               {\list{}{\rightmargin=.6cm\leftmargin=.6cm}%
+                \itshape \item[]}% <- The effect of \samepage is local!!!
+               {\endlist}
+
+% LAYOUT CHECK AND FIX
+\checkandfixthelayout
+
+% CUSTOM TITLE PAGE
+\makeatletter
+\def\@maketitle{%
+  % the half title page
+  \pagestyle{empty}
+  \halftitlepage
+  \cleardoublepage
+
+  % the title page
+  \titleM
+  \clearpage
+
+  % the copyright page
+  \copyrightpage
+  \cleardoublepage
+  \pagestyle{mystyle}
+}
+\makeatother
+% END PREAMBLE

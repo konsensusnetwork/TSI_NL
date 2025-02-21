@@ -1,0 +1,21 @@
+---
+title: "Konsensus Network"
+about:
+  template: jolla
+  image: /figures/freestarfish.png
+  image-width: 10em
+  image-shape: rectangle
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/konsensusn
+    - icon: github
+      text: Github
+      href: https://github.com/konsensusnetwork
+---
+
+Konsensus Network was founded in 2019 with the purpose of publishing the Finnish translation of The Bitcoin Standard by Saifedean Ammous. We gathered a group of freedom-loving volunteers who were passionate about bitcoin, and we rose to the occasion.
+
+FiveFour years later, and we have expanded from translations to original titles on bitcoin and economics, with nearly 100 books under our belt. We now operate as a hub between authors, license holders, translators, distributors, and production channels.
+
+The next phase in our evolution is to champion freedom, not just bitcoin. This includes the ideals of Austrian economics, libertarianism, privacy, and thought-provoking futuristic fiction.

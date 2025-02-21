@@ -34,5 +34,11 @@
   },
   "chapters/ch11.qmd": {
     "ch11.html": "c13cc24c"
+  },
+  "publisher.qmd": {
+    "publisher.html": "a7683fd3"
+  },
+  "presale.qmd": {
+    "presale.html": "ed7fb5b1"
   }
 }

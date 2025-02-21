@@ -6,8 +6,8 @@ def increment_footnote(match):
     return f'[^{number + 466}]'
 
 # File paths
-input_file = 'chapters/ch11.qmd'  # Replace with the path to your input file
-output_file = 'chapters/ch11.qmd'  # Replace with the path to the output file
+input_file = 'chapters/TSI_DE_CH11.qmd'  # Replace with the path to your input file
+output_file = 'chapters/TSI_DE_CH11.qmd'  # Replace with the path to the output file
 
 # Read the content from the file
 with open(input_file, 'r', encoding='utf-8') as file:
