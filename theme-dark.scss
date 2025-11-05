@@ -1,10 +1,21 @@
 /*-- scss:defaults --*/
 // Base document colors
-$link-color: #d4753e;
-$link-color-hover: #e9905d;
-$navbar-bg: #c55c07;
+$link-color: #ebe8e8;
+$link-color-hover: #c4c2c2;
+$link-color-hover-toc: #2e000096;
+$navbar-bg: #e70000bb;
 $navbar-border-color: $gray-800;
-$body-bg: #181818;
-$body-color: #e4e4e4;
+$body-bg: #080000;
+$body-color: #f7f7f7;
 $headings-color: #e4e4e4;
 $subtitle-color: #c9c8c8;
+$toc-title: #e4e4e4;
+
+:root {
+  --audio-bg: #080000; // $body-bg
+  --audio-primary: #e70000bb; // $navbar-bg
+  --audio-primary-dark: #c4c2c2; // $link-color-hover
+  --audio-progress-bg: #2e000096; // $link-color-hover-toc
+  --audio-time-color: #c9c8c8; // $subtitle-color
+  --audio-border-color: #3f3838; // $navbar-border-color or a suitable dark border
+}

@@ -5,8 +5,8 @@ about:
   links:
     - icon: book
       href: /chapters/ch01.html
-      text: "Chapter 1"
-      aria-label: "Chapter 1"
+      text: "Lees"
+      aria-label: "Lees"
     - icon: shop
       href: https://bitcoinbook.shop
       text: "Presale" 
@@ -26,29 +26,33 @@ format:
       body-width: 1400px
       gutter-width: 25px
     toc: false
-listing:
-  id: custom-toc
-  contents: chapters
-  sort: false
-  type: table
-  fields:
-    - title
-    - reading-time
-  sort-ui: false
-  filter-ui: false
 ---
 
 ::: {.content-hidden when-format="pdf"}
-## About this book {.unnumbered .unlisted}
+## Over dit boek {.unnumbered .unlisted}
 
-The two renowned investment advisors and authors of the bestseller *The Great Reckoning* examine both catastrophic influences and the potential for prosperity and renewal in light of radical changes in human history. The Sovereign Individual outlines strategies necessary to financially prepare for the next phase of Western civilization.
+**Een visionair meesterwerk dat na twintig jaar eindelijk in het Nederlands verschijnt.**
 
-Few observers of the late twentieth century had their fingers so presciently on the pulse of the global political and economic reorganization that ushered in the new millennium as James Dale Davidson and Lord William Rees-Mogg. Their bold prediction of a Wall Street catastrophe in Blood in the Streets was confirmed on Black Tuesday. In their subsequent bestseller The Great Reckoning, published just weeks before the coup attempt against Gorbachev, they analyzed the impending collapse of the Soviet Union and predicted the civil war in Yugoslavia and other events that proved to be some of the most shocking developments of recent years.
+Toen James Dale Davidson en Lord William Rees-Mogg *Het soevereine individu* in 1997 schreven, voorspelden zij een fundamentele transformatie die de macht van natiestaten zou ondermijnen en individuen meer vrijheid zou geven dan ooit tevoren. Twintig jaar later lezen hun woorden als een profetie die zich voor onze ogen voltrekt: de opkomst van bitcoin, remote work, digitale identiteit en een nieuwe generatie die zich niet langer laat tegenhouden door traditionele geografische en politieke grenzen.
 
-In The Sovereign Individual, Davidson and Rees-Mogg explore the greatest economic and political transformation in centuries - the transition from an industrial to an information society. This transition, which they describe as "the fourth stage of human society," will liberate the individual as never before and irrevocably change the power of governments. This outstanding book will replace false hopes and fictions with new understanding and enlightened values.
+In dit baanbrekende werk analyseren de auteurs de overgang van de industriële naar de informatiemaatschappij, wat zij "de vierde fase van de menselijke samenleving" noemen. Met een scherpe blik op historische patronen en technologische ontwikkelingen schetsen zij hoe de microprocessor de natiestaat zal transformeren en zelfs vervangen door nieuwe vormen van sociale organisatie.
 
-## Content
-::: {#sample-listings}
-:::
+*Het soevereine individu* biedt niet alleen een diepgaande analyse van de megapolitieke krachten die onze wereld vormgeven, maar ook praktische inzichten voor iedereen die zich wil voorbereiden op een toekomst waarin individuele soevereiniteit en economische vrijheid centraal staan. Een tijdloos boek dat vandaag de dag relevanter is dan ooit.
+
+::: {.custom-toc}
+## Inhoudsopgave
+  - 
+    - [De overgang in het jaar 2000](/chapters/ch01.html)
+    - [Megapolitieke transformaties in historisch perspectief](/chapters/ch02.html)
+    - [Ten oosten van Eden](/chapters/ch03.html)
+    - [De laatste dagen van de politiek](/chapters/ch04.html)
+    - [Het leven en de gezondheid van de natiestaat](/chapters/ch05.html)
+    - [De megapolitiek van het informatietijdperk](/chapters/ch06.html)
+    - [Het overstijgen van plaatsgebondenheid](/chapters/ch07.html)
+    - [Het einde van egalitaire economie](/chapters/ch08.html)
+    - [Nationalisme, reactie en de nieuwe ludditen](/chapters/ch09.html)
+    - [De schemering van de democratie](/chapters/ch10.html)
+    - [Moraal en misdaad in de 'natuurlijke economie' van het informatietijdperk](/chapters/ch11.html)
+    - [Nawoord: decentralisatie en de wet van de afnemende meeropbrengst](/chapters/nawoord.html)
 
 :::

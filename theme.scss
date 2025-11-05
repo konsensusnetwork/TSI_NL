@@ -1,4 +1,18 @@
 /*-- scss:defaults --*/
+
+// The left hand sidebar
+$grid-sidebar-width: 300px !default;
+
+// The main body
+$grid-body-width: 900px !default;
+
+// The right hand margin bar
+$grid-margin-width: 300px !default;
+
+// The gutter that appears between the above columns
+$grid-column-gutter-width: 1.5rem !default;
+
+// The border radius
 $border-radius: 2em;
 
 // Block quotes
@@ -10,10 +24,14 @@ blockquote {
     margin-bottom: 2em;
 }
 
-// Index about section (TITLE PAGE)
-.about-entity {
-    padding-left: 1em;
+p {
+    color: $body-color;
 }
+
+// Index about section (TITLE PAGE)
+// .about-entity {
+//     padding-left: 3em;
+// }
 
 .quarto-title-meta {
     display: flex !important;
@@ -50,6 +68,7 @@ blockquote {
     font-style: italic;
     font-size: 0.9rem;
     margin-bottom: 2em;
+    max-width: 420px;
 }
 
 .quarto-title-meta-heading {
@@ -59,32 +78,240 @@ blockquote {
 // Navbar
 .navbar {
     text-transform: none !important;
-    padding-block: 0.8rem !important;
+    padding-block: 0rem !important;
     border-bottom: 1px solid $navbar-border-color;
 }
 
 // Next/Previous page navigation
+// reset all padding and margins to 0 
 .nav-page {
-    padding-block: 0.1rem !important;
-    padding-inline: 0rem !important;
     font-size: 0.8rem !important;
+    border-radius: $border-radius !important;
+    border-color: $link-color !important;
+    background-color: $link-color !important;
+    padding: 0.4em 1em !important;
+    padding-inline: 3em !important;
+    margin: 0rem !important;
+    display: flex;
+    align-items: center;
+    min-height: 2.2em;
+    margin-left: auto !important;
+    margin-bottom: 2em !important;
 }
 
 .nav-page-previous {
-    visibility: hidden;
-    width: 0px;
+    display: none !important;
 }
 
 .nav-page-text {
-    font-size: 0.8rem !important;
-    color: $link-color !important;
+    font-size: 0.9rem !important;
+    color: $navbar-bg !important;
 }
 
 .nav-page-next {
+    color: $navbar-bg !important;
+    border-radius: 20px !important;
 
-    color: $link-color !important;
+    &:hover {
+        background-color: $link-color-hover !important;
+    }
+
+    a {
+        color: $navbar-bg !important;
+        
+        &:hover {
+            color: $navbar-bg !important;
+        }
+    }
 }
 
 #quarto-content {
-    margin-bottom: 2em;
+    margin-bottom: 0em;
 }
+
+.custom-toc {
+  max-width: 600px;
+  padding: 0;
+  background: none;
+  border: none;
+
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2em 0;
+  }
+
+  > ul > li, > ol > li {
+    margin-bottom: 0.5em;
+  }
+
+  // Part headings (top-level list items)
+  > ul > li > a, > ol > li > a {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: $toc-title;
+    margin-bottom: 0.7em;
+    text-decoration: none;
+    border-radius: 1.5em;
+    padding: 0.7em 1.2em;
+    transition: background 0.2s, color 0.2s;
+    position: relative;
+
+    &:hover {
+        text-decoration: underline;
+    }
+  }
+
+  // Chapter links (nested list items)
+  ul ul li, ol ol li {
+    margin-bottom: 0.5em;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $toc-title;
+    background: $navbar-bg;
+    padding: 0.5em 1.2em;
+    border-radius: 10px;
+    border: 1px solid $navbar-border-color;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+
+    &:hover {
+      background: $link-color-hover-toc;
+    }
+  }
+
+  ul ul li a, ol ol li a {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $toc-title;
+    background: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+}
+
+.custom-toc ul, .custom-toc ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-toc .frontmatter-chapter {
+  margin-bottom: 0.5em;
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $toc-title;
+  background: $navbar-bg;
+  padding: 0.5em 1.2em;
+  border-radius: 10px;
+  border: 1px solid $navbar-border-color;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: $link-color-hover-toc;
+  }
+}
+
+// Upcoming chapters
+.upcoming {
+background: none !important;
+cursor: not-allowed;
+color: $toc-title !important;
+
+&::after {
+    content: "🔒";
+    margin-left: 0.5em;
+    font-size: 0.9em;
+}
+}
+
+@media (min-width: 900px) {
+  .sidebar {
+    visibility: hidden !important;
+    /* Or use display: none !important; if you want it to not take up space at all */
+  }
+}
+
+.buy-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+/* Audio Player Styles */
+.audio-player-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: var(--audio-bg);
+  border-radius: 12px;
+  border: 1.5px solid var(--audio-border-color);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0rem;
+}
+
+.audio-button {
+  background: var(--audio-primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.audio-button:hover {
+  background: var(--audio-primary-dark);
+}
+
+.progress-container {
+  flex-grow: 1;
+  height: 4px;
+  background: var(--audio-progress-bg);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--audio-primary);
+  border-radius: 2px;
+  width: 0;
+  transition: width 0.1s linear;
+}
+
+.time-display {
+  font-size: 0.875rem;
+  color: var(--audio-time-color);
+  min-width: 100px;
+  text-align: right;
+}
+
+/* Hide default audio controls */
+audio {
+  display: none;
+}
+

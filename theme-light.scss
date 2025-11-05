@@ -2,6 +2,19 @@
 // Base document colors
 $link-color: #203447;
 $link-color-hover: #0a2239;
+$link-color-hover-toc: #e3eaf0;
 $navbar-bg: #ffffff;
 $navbar-border-color: $gray-500;
 $subtitle-color: #575656;
+$body-color: #161616;
+$toc-title: #020202;
+
+:root {
+  --audio-bg: #ffffff; // $navbar-bg
+  --audio-primary: #203447; // $link-color
+  --audio-primary-dark: #0a2239; // $link-color-hover
+  --audio-progress-bg: #e3eaf0; // $link-color-hover-toc
+  --audio-time-color: #575656; // $subtitle-color
+  --audio-border-color: #adb5bd; // $navbar-border-color or a suitable light border
+
+}

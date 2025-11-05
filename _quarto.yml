@@ -5,15 +5,15 @@ project:
     browser: false
 
 book:
-  title: "The Sovereign Individual"
+  title: "Het soevereine individu"
   output-file: main
   subtitle: "De overgang naar het informatietijdperk"
   author: "James Dale Davidson & Lord William Rees-Mogg"
-  date: "9/10/2024"
+  date: "10/17/2025"
   image: cover.png
-  image-alt: "The Sovereign Individual"
+  image-alt: "Het soevereine individu"
   isbn: 978-9916-000-00-0
-  language: en
+  language: nl
   original-title: "The Sovereign Individual"
   publisher: Konsensus Network
   original-publisher: Simon & Schuster
@@ -75,10 +75,11 @@ book:
     - chapters/ch09.qmd
     - chapters/ch10.qmd
     - chapters/ch11.qmd
+    # - chapters/nawoord.qmd
 
 format:
   html:
-    lang: en
+    lang: nl
     theme:
       light: [flatly, theme.scss, theme-light.scss]
     number-depth: 2
@@ -90,8 +91,14 @@ format:
     toc: true
     toc-location: left
     reference-location: margin
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    include-before-body:
+      - text: |
+          <script src="/audio-player.js"></script>
   pdf:
-    lang: en
+    lang: nl
     documentclass: memoir
     classoption: smalldemyvopaper,10pt,twoside,onecolumn,openright,extrafontsizes,hidelinks
     papersize: a5
@@ -109,6 +116,6 @@ format:
     toc: true
     toc-depth: 1
     toc-title: Contents
-    lang: "en-US"
+    lang: "nl-NL"
     css: epub.css
     number-depth: 2

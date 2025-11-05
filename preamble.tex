@@ -1,8 +1,9 @@
 % typographical packages
 \usepackage{microtype}
 \usepackage{setspace}
-\tolerance=6000
-\hyphenpenalty=1000
+% \tolerance=6000
+% \hyphenpenalty=1000
+\usepackage[all]{nowidow}
 
 % typographical settings for the body text
 \setlength{\parskip}{0em}
@@ -13,35 +14,37 @@
 \newcommand{\titleoriginal}{The Sovereign Individual}
 \newcommand{\subtitleoriginal}{Mastering the Transition to the Information Age}
 \newcommand{\yearoriginal}{1999}
-\newcommand{\subtitletranslation}{XXX}
-\newcommand{\yeartranslation}{XXX}
-\newcommand{\stringtranslation}{XXX}
+\newcommand{\subtitletranslation}{De overgang naar het informatietijdperk}
+\newcommand{\yeartranslation}{2025}
+\newcommand{\stringtranslation}{Vertaling: }
 \newcommand{\stringlicense}{XXX}
-\newcommand{\stringpublisher}{XXX}
+\newcommand{\stringpublisher}{Konsensus Network}
 \newcommand{\ISBNHC}{XXX}
 \newcommand{\ISBNSC}{XXX}
 \newcommand{\ISBNEBOOK}{XXX}
 \newcommand{\ISBNAUDIO}{XXX}
 \newcommand{\press}{Konsensus Network}
-\newcommand{\translatorone}{XXX}
+\newcommand{\translatorone}{Vincent Hondius}
+\newcommand{\translatortwo}{Theo Hague}
 \newcommand{\translators}{
 \large\textit{\stringtranslation:}\\
 \translatorone\\
+\translatortwo\\
 }
 
 % PHYSICAL DOCUMENT SETUP
 \setstocksize{210mm}{148mm}
 \settrimmedsize{210mm}{148mm}{*}
-\setbinding{7mm}
-\setlrmarginsandblock{15mm}{16mm}{*}
-\setulmarginsandblock{16mm}{16mm}{*}
-\setlength{\skip\footins}{18pt} % More space between the text and the footnote line
+\setbinding{8mm}
+\setlrmarginsandblock{16mm}{18mm}{*}
+\setulmarginsandblock{16mm}{15mm}{*}
+%\setlength{\skip\footins}{18pt} % More space between the text and the footnote line
 
 % FONTS
 \usepackage{fontspec}
 \setmainfont{stone-serif}[
     Path=./fonts/stone-serif-itc-pro/,
-    Scale=0.83,
+    Scale=0.85,
     Extension=.OTF,
     UprightFont=*-Regular,
     BoldFont=*-SemiBd,
@@ -66,6 +69,11 @@
 \renewcommand{\LettrineTextFont}{}
 \setlength{\DefaultFindent}{\fontdimen2\font}
 \setlength{\DefaultNindent}{0em}
+
+% Define YUGE
+\newcommand{\YUGE}{\fontsize{36pt}{43pt}\selectfont}
+\newcommand{\Yuge}{\fontsize{30pt}{36pt}\selectfont}
+\newcommand{\yuge}{\fontsize{27pt}{32pt}\selectfont}
 
 % custom second title page
 \makeatletter
@@ -139,10 +147,10 @@
 % HEADER AND FOOTER MANIPULATION
 % for normal pages
 \nouppercaseheads
-\headsep = 4mm
+\headsep = 6mm
 \makepagestyle{mystyle} 
-\makeevenhead{mystyle}{\scriptsize\sffamily\mdseries\thepage}{}{}
-\makeoddhead{mystyle}{\scriptsize\sffamily\mdseries\leftmark}{}{\scriptsize\sffamily\mdseries\thepage}
+\makeevenhead{mystyle}{\scriptsize\sffamily\thepage}{}{}
+\makeoddhead{mystyle}{\scriptsize\sffamily\leftmark}{}{\scriptsize\sffamily\thepage}
 \makeevenfoot{mystyle}{}{}{}
 \makeoddfoot{mystyle}{}{}{}
 \makeatletter
@@ -171,7 +179,7 @@
 \renewcommand{\cftsectionfont}{\Small\sffamily}
 \renewcommand{\cftpartpagefont}{\Large\sffamily}
 \renewcommand{\cftchapterpagefont}{\small}
-\renewcommand{\cftchapterpresnum}{KAPITEL\space}
+\renewcommand{\cftchapterpresnum}{HOOFDSTUK\space}
 \renewcommand{\cftchapternumwidth}{7em}
 \setlength{\cftchapterindent}{0em}
 \setlength{\cftsectionindent}{5em}
@@ -226,13 +234,20 @@
 }
 
 \titleformat
-  {\section}[block]
+  {\section}[display]
   {\sffamily\large\bfseries}
-  {}
+  {\thesection}
   {0pt}
-  {}
-  
-\titlespacing*{\section}{0pt}{2em}{0.5em}
+  {\MakeUppercase}
+
+% \makeatletter
+% \renewcommand{\section}{\@startsection {section}{1}{\z@}%
+%               {-3.5ex \@plus -1ex \@minus -.2ex}%
+%               {2.3ex \@plus .2ex}%
+%               {\sffamily\large\bfseries\MakeUppercase}}
+% \makeatother
+
+\titlespacing*{\section}{0pt}{2em}{0em}
 
 \titleformat{\subsection}{\sffamily\bfseries}{}{}{}
 \titlespacing*{\subsection}{0pt}{2em}{0em}

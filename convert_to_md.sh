@@ -14,7 +14,7 @@ for file in chapters/edited/*.docx; do
     if [ -f "$file" ]; then
         filename=$(basename "$file" .docx)
         echo "Converting $file to md..."
-        pandoc "$file" -o "chapters/edited/${filename}.md"
+        pandoc "$file" -o "chapters/edited/${filename}.md" --wrap=none
     fi
 done
 
