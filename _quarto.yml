@@ -18,7 +18,7 @@ book:
   publisher: Konsensus Network
   original-publisher: Simon & Schuster
   favicon: /figures/freestarfish.png
-  repo-url: https://github.com/konsensusnetwork/TSI_EN
+  repo-url: https://github.com/konsensusnetwork/TSI_NL
   repo-actions: [edit, source]
   search:
     location: sidebar
