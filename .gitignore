@@ -1,5 +1,6 @@
-.quarto
 /.quarto/
 site_libs
 build
 chapters/edited
+
+**/*.quarto_ipynb
