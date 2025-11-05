@@ -1,3 +1,4 @@
 /.quarto/
 build
 chapters/edited
+**/*.quarto_ipynb
