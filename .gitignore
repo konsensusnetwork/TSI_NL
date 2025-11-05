@@ -2,6 +2,5 @@
 /.quarto/
 site_libs
 build
-_book
 chapters/edited
 **/*.quarto_ipynb
