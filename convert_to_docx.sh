@@ -7,15 +7,15 @@ if ! command -v pandoc &> /dev/null; then
 fi
 
 # Create output directory if it doesn't exist
-mkdir -p docx_output
+mkdir -p docx
 
 # Convert all .qmd files in the chapters directory
 for file in chapters/*.qmd; do
     if [ -f "$file" ]; then
         filename=$(basename "$file" .qmd)
         echo "Converting $file to docx..."
-        pandoc "$file" -o "docx_output/${filename}.docx"
+        pandoc "$file" -o "docx/${filename}.docx"
     fi
 done
 
-echo "Conversion complete! Files are saved in the docx_output directory." 
+echo "Conversion complete! Files are saved in the docx directory." 
