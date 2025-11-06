@@ -7,15 +7,15 @@ if ! command -v pandoc &> /dev/null; then
 fi
 
 # Create output directory if it doesn't exist
-mkdir -p chapters/edited
+mkdir -p chapters/md
 
 # Convert all .docx files in the chapters directory
-for file in chapters/edited/*.docx; do
+for file in chapters/*.qmd; do
     if [ -f "$file" ]; then
-        filename=$(basename "$file" .docx)
+        filename=$(basename "$file" .qmd)
         echo "Converting $file to md..."
-        pandoc "$file" -o "chapters/edited/${filename}.md" --wrap=none
+        pandoc "$file" -o "chapters/md/${filename}.md" --wrap=none
     fi
 done
 
-echo "Conversion complete! Files are saved in the chapters/edited directory." 
+echo "Conversion complete! Files are saved in the chapters/md directory." 
