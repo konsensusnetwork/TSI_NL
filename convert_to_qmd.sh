@@ -14,7 +14,7 @@ for file in chapters/md/*.md; do
     if [ -f "$file" ]; then
         filename=$(basename "$file" .md)
         echo "Converting $file to qmd..."
-        pandoc "$file" -o "chapters/${filename}.qmd" --wrap=none
+        cp "$file" "chapters/${filename}.qmd"
     fi
 done
 
