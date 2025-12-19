@@ -1,12 +1,14 @@
 # Het leven en de gezondheid van de natiestaat
 
-::: {.content-hidden when-format="latex"} _Democratie en nationalisme als strategische middelen in het Tijdperk van Geweld_ :::
+::: {.content-hidden when-format="latex"}
+_Democratie en nationalisme als strategische middelen in het Tijdperk van Geweld_
+:::
 
-> Het allerbelangrijkste voor oorlogsvoering is om voldoende financiële middelen te hebben om alles te leveren wat nodig is.\[^163] -- Robert de Balsac, 1502
+> Het allerbelangrijkste voor oorlogsvoering is om voldoende financiële middelen te hebben om alles te leveren wat nodig is.[^163] -- Robert de Balsac, 1502
 
 ## Het puin van de geschiedenis
 
-Op 9 en 10 november 1989 zond de televisie wereldwijd beelden uit van uitgelaten Oost-Berlijners die de Berlijnse Muur met voorhamers afbraken. Beginnende ondernemers in de menigte raapten stukken van de muur op, die later aan kapitalisten overal ter wereld werden verkocht als souvenir. Jarenlang werd er een levendige handel in deze relikwieën gedreven. Zelfs op het moment dat we dit schrijven, kom je nog af en toe advertenties tegen in kleine tijdschriften waarin stukken oud Oost-Duits beton worden aangeboden voor prijzen die normaal gesproken alleen voor hoogwaardig zilvererts worden betaald. Degenen die de Berlijnse Muur-souvenirs hebben gekocht, hoeven geen haast te hebben om ze te verkopen. Zij bezitten aandenken aan iets groters dan de val van het communisme. Wij geloven dat de Berlijnse Muur de belangrijkste berg historisch puin is geworden sinds de muren van San Giovanni met de grond gelijk werden gemaakt bijna vijf eeuwen eerder, in februari 1495.\[^165]
+Op 9 en 10 november 1989 zond de televisie wereldwijd beelden uit van uitgelaten Oost-Berlijners die de Berlijnse Muur met voorhamers afbraken. Beginnende ondernemers in de menigte raapten stukken van de muur op, die later aan kapitalisten overal ter wereld werden verkocht als souvenir. Jarenlang werd er een levendige handel in deze relikwieën gedreven. Zelfs op het moment dat we dit schrijven, kom je nog af en toe advertenties tegen in kleine tijdschriften waarin stukken oud Oost-Duits beton worden aangeboden voor prijzen die normaal gesproken alleen voor hoogwaardig zilvererts worden betaald. Degenen die de Berlijnse Muur-souvenirs hebben gekocht, hoeven geen haast te hebben om ze te verkopen. Zij bezitten aandenken aan iets groters dan de val van het communisme. Wij geloven dat de Berlijnse Muur de belangrijkste berg historisch puin is geworden sinds de muren van San Giovanni met de grond gelijk werden gemaakt bijna vijf eeuwen eerder, in februari 1495.[^164]
 
 Het afbreken van San Giovanni door de Franse koning Karel VIII was het eerste salvo van de Buskruitrevolutie. Het markeerde het einde van de feodale fase van de geschiedenis en het begin van het industrialisme, zoals we eerder hebben uiteengezet. De vernietiging van de Berlijnse Muur markeert een andere historische scheidslijn: de overgang van het Industriële Tijdperk naar het nieuwe Informatietijdperk. Nooit eerder was er zo'n grote symbolische triomf van efficiëntie over macht. Toen de muren van San Giovanni vielen, was dat een onmiskenbare demonstratie dat de economische opbrengsten van geweld sterk waren gestegen. De val van de Berlijnse Muur zegt echter iets anders, namelijk dat de opbrengsten van geweld nu dalen. Dit is iets wat nog maar weinigen zijn gaan beseffen, maar het zal dramatische gevolgen hebben.
 
@@ -14,7 +16,7 @@ Om redenen die we in dit hoofdstuk behandelen, kan de Berlijnse Muur veel symbol
 
 Eeuwenlang maakte de natiestaat alle muren die naar buiten gericht waren overbodig en onnodig. De gebieden waarin de staat als eerste een monopolie op dwang realiseerde, werden zowel intern vreedzamer als militair krachtiger dan welke soevereine macht de wereld ook had gekend. De staat gebruikte de middelen die zij van een grotendeels ontwapende bevolking afnam om kleinschalige roofdieren de kop in te drukken. De natiestaat werd het succesvolste instrument in de geschiedenis om middelen af te pakken. Dat succes was gebaseerd op het superieure vermogen om de rijkdom van zijn burgers voor haar eigen doeleinden in te zetten.
 
-> MTV is meer dan alleen een leverancier van muziekvideo's en een promotietool van de platenindustrie. Het is het eerste echte mondiale netwerk, dat vrijwel in elk land ter wereld een uniforme programmering biedt. Daardoor creëert MTV een gedeeld gevoel van wereldwijde realiteit voor zijn kijkers, kinderen en jongvolwassenen. Recent onderzoek toont aan dat jongeren wereldwijd steeds vaker niet alleen gemeenschappelijke popiconen en smaken delen, maar ook gelijke verwachtingen over hun carrière, vergelijkbare waarden over wat zinvol is in het leven en wat angst veroorzaakt, en een gemeenschappelijk besef dat politiek minder belangrijk is bij het vormgeven van hun toekomst dan hun eigen vaardigheden. \[^165] -- Jim Taylor and Watts Wacker, The 500-Year Delta: What Happens After What Comes Next
+> MTV is meer dan alleen een leverancier van muziekvideo's en een promotietool van de platenindustrie. Het is het eerste echte mondiale netwerk, dat vrijwel in elk land ter wereld een uniforme programmering biedt. Daardoor creëert MTV een gedeeld gevoel van wereldwijde realiteit voor zijn kijkers, kinderen en jongvolwassenen. Recent onderzoek toont aan dat jongeren wereldwijd steeds vaker niet alleen gemeenschappelijke popiconen en smaken delen, maar ook gelijke verwachtingen over hun carrière, vergelijkbare waarden over wat zinvol is in het leven en wat angst veroorzaakt, en een gemeenschappelijk besef dat politiek minder belangrijk is bij het vormgeven van hun toekomst dan hun eigen vaardigheden. [^165] -- Jim Taylor and Watts Wacker, The 500-Year Delta: What Happens After What Comes Next
 
 ### "Houd ervan of vertrek" (tenzij je rijk bent)
 
@@ -46,7 +48,7 @@ Staten zijn gedurende de afgelopen tweehonderd jaar van de moderne periode de no
 
 ### Grootte boven efficiëntie
 
-Buskruit maakte het voor staten eenvoudiger om zich uit te breiden voorbij de grenzen van rijstvelden en droge rivierdalen. De aard van buskruitwapens en de opbouw van de industriële economie brachten flinke schaalvoordelen in de oorlogsvoering met zich mee. Dit leidde tot hoge én steeds verder toenemende opbrengsten van geweld. Zoals historicus Charles Tilly het verwoordde: '\[S]taten met de meeste dwangmiddelen wonnen de oorlogen; efficiëntie (de verhouding tussen output en input) kwam op de tweede plaats na effectiviteit (totale output).' Aangezien regeringen zich vrijwel altijd op grote schaal organiseerden, hadden zelfs de weinige kleine soevereiniteiten, zoals Monaco of Andorra, de erkenning van de grotere staten nodig om hun onafhankelijkheid te waarborgen. Alleen grote overheden met een steeds grotere controle over middelen konden op het slagveld concurreren.
+Buskruit maakte het voor staten eenvoudiger om zich uit te breiden voorbij de grenzen van rijstvelden en droge rivierdalen. De aard van buskruitwapens en de opbouw van de industriële economie brachten flinke schaalvoordelen in de oorlogsvoering met zich mee. Dit leidde tot hoge én steeds verder toenemende opbrengsten van geweld. Zoals historicus Charles Tilly het verwoordde: '[S]taten met de meeste dwangmiddelen wonnen de oorlogen; efficiëntie (de verhouding tussen output en input) kwam op de tweede plaats na effectiviteit (totale output).' Aangezien regeringen zich vrijwel altijd op grote schaal organiseerden, hadden zelfs de weinige kleine soevereiniteiten, zoals Monaco of Andorra, de erkenning van de grotere staten nodig om hun onafhankelijkheid te waarborgen. Alleen grote overheden met een steeds grotere controle over middelen konden op het slagveld concurreren.
 
 ### De grote onbeantwoorde vraag
 
@@ -248,3 +250,51 @@ Wij zagen de onrust in Peru niet als een terugkeer naar de dictaturen van het ve
 Bijna niemand denkt nog na over de onverenigbaarheid tussen sommige instituties van de industriële overheid en de megapolitiek van de postindustriële samenleving. Of deze tegenstrijdigheden nu expliciet worden erkend of niet, hun gevolgen zullen steeds duidelijker worden naarmate voorbeelden van politiek falen zich wereldwijd opstapelen. Overheidsinstellingen die in de moderne tijd zijn ontstaan, weerspiegelen de megapolitieke omstandigheden van een of meerdere eeuwen geleden. Het Informatietijdperk zal nieuwe vertegenwoordigingsmechanismen vereisen om chronische disfunctionaliteit en zelfs sociale ineenstorting te vermijden.
 
 Toen de Berlijnse Muur in 1989 viel, betekende dat niet alleen het einde van de Koude Oorlog; het was ook het signaal aan de buitenwereld dat er een stille aardbeving in de fundamenten van de macht in de wereld gaande was. Het betekende het einde van de lange periode van stijgende rendementen op geweld. De val van het communisme, die wij in 1987 voorspelden in _Blood in the Streets_ en nog eerder in onze maandelijkse nieuwsbrief _Strategic Investment_, was niet louter een verwerping van een ideologie. Het diende als zichtbaar symbool voor de meest betekenisvolle verandering in de geschiedenis van geweld van de laatste vijfhonderd jaar. Indien onze analyse juist is, zal de maatschappelijke structuur zich aanpassen aan de groeiende inefficiënties die gepaard gaan met het grootschalig inzetten van geweld. De grenzen waarbinnen de toekomst zich moet afspelen, zijn hertekend.
+
+[^163]: Quoted in Tilly, op. cit., p.84.
+
+[^164]: See John Keegan, *A History of Warfare* (London: Hutchinson, 1993), p.321.
+
+[^165]: Jim Taylor and Watts Wacker, The 500-Year Delta: What Happens After What Comes Next. New York: HarperCollins, 1997, pp. 38-39.
+
+[^166]: Ibid., p. 39.
+
+[^167]: The Cambridge Ancient History, op. cit., pp.263-64.
+
+[^168]: Cook et al., op. cit., p.268.
+
+[^169]: For more on the logic of hydraulic societies, see Karl A. Wittfogel, *Oriental Despotism: A Comparative Study of Total Power* (New Haven: Yale University Press, 1957).
+
+[^170]: Tilly, op. cit., p.28.
+
+[^171]: Lane, "Consequences of Organized Violence," op. cit., p.406.
+
+[^172]: Ibid.
+
+[^173]: Ibid., p.412.
+
+[^174]: Tilly, op. cit., pp.96-126.
+
+[^175]: Ibid., p.130.
+
+[^176]: Ibid., p.110.
+
+[^177]: This example in ibid., p.139.
+
+[^178]: Ibid., p.115.
+
+[^179]: See Mancur Olson, *The Logic of Collective Action* (Cambridge: Harvard University Press, 1965).
+
+[^180]: Josep R. Llobera, *The God of Modernity: The Development of Nationalism in Western Europe* (Oxford: Berg Publishers, 1994), pp. ix-x.
+
+[^181]: Ibid., p. xiii.
+
+[^182]: See William McNeill, *Polyethnicity and National Unity in World History* (Toronto: University of Toronto Press, 1986).
+
+[^183]: Ibid., p.7.
+
+[^184]: Hernando de Soto, *The Other Path* (New York: Harper & Row, 1989).
+
+[^185]: Ibid.
+
+[^186]: Ibid., p.6.

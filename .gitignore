@@ -2,5 +2,4 @@
 build
 chapters/edited
 **/*.quarto_ipynb
-_book/
 site_libs/

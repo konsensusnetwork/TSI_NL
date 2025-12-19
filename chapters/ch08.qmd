@@ -1,6 +1,8 @@
 # Het einde van egalitaire economie
 
-::: {.content-hidden when-format="latex"} _De revolutie van het vermogen om geld te verdienen in een wereld zonder banen_ :::
+::: {.content-hidden when-format="latex"}
+_De revolutie van het vermogen om geld te verdienen in een wereld zonder banen_
+:::
 
 > God laat zich niet bespotten: want wat een mens zaait, zal hij ook oogsten. -- Galaten 6:7
 
@@ -360,3 +362,75 @@ Net als in de Middeleeuwen ontstaan er opnieuw toenemende schaalnadelen bij het 
 Macht zal opnieuw op kleine schaal worden uitgeoefend. Bij het bieden van aantrekkelijke voorwaarden voor soevereiniteit aan hun "afnemers", zullen enclaves en provincies zelfs substantieel voordeel kunnen ervaren ten opzichte van uitgestrekte landen. Dit zal heel anders zijn dan de snel stervende moderne periode, waarin geen enkele entiteit kon overleven zonder militaire macht, krachtig genoeg om een koninkrijk te beheersen. Vroeger, toen er schaalnadelen gepaard gingen met het uitoefenen van macht, hadden degenen die het meest profiteerden van bescherming, zoals de rijke kooplieden in de late middeleeuwse stadstaten, controle over de overheid. Naar onze mening kan iets dergelijks opnieuw gebeuren. De verlaging van roofzuchtige lasten en efficiëntere verdeling van middelen zal leiden tot snelle groei in gebieden waar klanten daadwerkelijk controle uitoefenen over de lokale soevereiniteiten.
 
 Of deze ontwikkelingen kunnen of moeten doorgaan ondanks oppositie van vele verliezers, zal, zoals we hierna verkennen, tot een van de belangrijkste controverses van het Informatietijdperk behoren.
+
+[^270]: Benjamin Schwarz, 'American Inequality: Its History and Scary Future', *New York Times*, 19 december 1995, p. A25.
+
+[^271]: Adna Ferrin Weber, 'The Growth of Cities in the Nineteenth Century' (New York: *Macmillan*, 1899; herdrukt door *Cornell University Press*, 1963), p. 249.
+
+[^272]: Bill Bryson, 'The Lost Continent' (New York: *Harper Perennial*, 1989), p. 72.
+
+[^273]: Dit artikel is herdrukt in vol. 4 van de verzameling 'Early Mathematical Economists' van Adrian Darnell (6 delen, London: *Pickering & Chatto*, 1991).
+
+[^274]: Bijvoorbeeld, zie Weber, op. cit., p. 2.
+
+[^275]: Clive Jenkins en Barrie Sherman, The Collapse of Work (London: Methuen, 1979), p. 103.
+
+[^276]: Robert H. Frank en Philip J. Cook, The Winner-Take-All Society (New York: The Free Press, 1995).
+
+[^277]: Clay Chandler, 'Buchanans succes schrikt het bedrijfsleven af', *Washington Post*, 22 februari 1996, p. D12.
+
+[^278]: Stephanie Flanders en Martin Wolfe, 'Haunted by the Trade Spectre,' *Financial Times*, 24 juli 1995, p. 11. Zij citeren uit het meest recente wereldontwikkelingsrapport van de Wereldbank over werknemers in een zich integrerende wereldeconomie.
+
+[^279]: Zie Mancur Olson, 'Diseconomies of scale and development,' *Cato Journal*, vol. 7, nr. 1 (lente/zomer 1987).
+
+[^280]: Ibid.
+
+[^281]: Basil Davidson, *The Black Mans' Burden: Africa and the Curse of the Nation State* (New York: Times Books, 1992), p. 290.
+
+[^282]: Olson, op. cit.
+
+[^283]: Adam Smith, *The Wealth of Nations*, p. 724. Dit punt werd gesuggereerd door een argument van Edwin G. West in *Adam Smith and Modern Economics* (Aldershot, Engeland: Edward Elgar Publishing, 1990), pp. 88–89.
+
+[^284]: Fritz Rorig, *The Medieval Town* (Berkeley: University of California Press, 1967), p. 28.
+
+[^285]: Albert O. Hirschman, 'Exit, Voice, and Loyalty' (Cambridge: *Harvard University Press*, 1969), p. 81.
+
+[^286]: Tom Peters en George Gilder, 'City vs. country: debat van Tom Peters en George Gilder over de impact van technologie op locatie', *Forbes*, februari 1995.
+
+[^287]: Weber, op. cit., p. 21.
+
+[^288]: Ibid., p. 46 voor Londen, p. 73 voor Parijs.
+
+[^289]: Ibid., p. 120.
+
+[^290]: Ibid., p. 95.
+
+[^291]: Ibid., p. 84.
+
+[^292]: Ibid., p. 119.
+
+[^293]: Ibid., p. 101.
+
+[^294]: Ibid., p. 5.
+
+[^295]: Zie Ronald Coase, *The Nature of the Firm*, herdrukt in Louis Putterman en Randall S. Kroszner (red.), *The Economic Nature of the Firm: A Reader*, 2e editie (Cambridge: *Cambridge University Press*, 1996), pp. 89–104.
+
+[^296]: Geciteerd door West, op. cit., p. 58; zie ook Oliver E. Williamson, *The Organization of Work: A Comparative Institutional Assessment*, *Journal of Economic Behaviour and Organisation*, vol. 1, nr. 1.
+
+[^297]: Geciteerd door West, op. cit., p. 59; zie eveneens Williamson, op. cit.
+
+[^298]: Richard Cyert en James March, *A Behavioral Theory of the Firm* (Englewood Cliffs, N.J.: *Prentice-Hall*, 1983).
+
+[^299]: Chris Dray, 'Civil servants lead lives of quiet collusion', *Globe and Mail*, 2 februari 1996, p. A14.
+
+[^300]: William Bridges, Jobsh ft: How to Prosper in a Workplace Without Jobs (Reading, Mass.: *Addison-Wesley*, 1994), pp. 62, 64.
+
+[^301]: Zie Al Ehrbar, 'Re-engineering geeft bedrijven nieuwe efficiëntie, werknemers de ontslagbrief,' *Wall Street Journal*, 22 juli 1992, p. A14, geciteerd door Bridges, op. cit., p. 39.
+
+[^302]: Sheryl WuDunn, 'Parting Is Such Sour Sorrow: Japan's Job-for-Life Culture Painfully Expires,' *International Herald Tribune*, 13 juni 1996, p. 13.
+
+[^303]: Bridges, op. cit., pp. 31–32.
+
+[^304]: Ibid., p. 58.
+
+[^305]: Abu-Lughod, op. cit., p. 186.

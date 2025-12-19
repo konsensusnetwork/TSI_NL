@@ -1,6 +1,8 @@
 # De megapolitiek van het Informatietijdperk
 
-::: {.content-hidden when-format="latex"} De triomf van efficiëntie boven macht :::
+::: {.content-hidden when-format="latex"}
+De triomf van efficiëntie boven macht
+:::
 
 > ...het is gecomputeriseerde informatie, niet mankracht of massaproductie, die de Amerikaanse economie steeds meer aandrijft en die oorlogen zal winnen in een wereld die is bekabeld voor 500 TV-kanalen. De gecomputeriseerde informatie bestaat in de cyberspace, de nieuwe dimensie die is ontstaan door de eindeloze productie van computernetwerken, satellieten, modems, databanken en het publieke internet. -- NEIL MUNRO
 
@@ -367,3 +369,119 @@ Informatiemaatschappijen zullen een enorme hoeveelheid middelen buiten het berei
 Daarom zal overheidsbescherming van een groot deel van de wereldrijkdom onnodig worden. De overheid zal niet beter in staat zijn om een banktegoed in de cyberspace te beschermen dan uzelf. Omdat de overheid minder noodzakelijk zal zijn, zal haar relatieve prijs waarschijnlijk alleen al om die reden dalen, maar er zijn nog andere.
 
 Nu een groot en groeiend aandeel van de financiële transacties in dit nieuwe millennium in de cyberspace plaatsvindt, zullen individuen een keuze hebben in welke jurisdictie zij hun transacties onderbrengen. Het zal intense concurrentie creëren om de prijs van overheidsdiensten (de heffingen die zij oplegt) op een niet-monopolistische wijze te bepalen. Dit is revolutionair. Zoals George Melloan betoogde in _The Wall Street Journal_, 'de instelling die veruit het meest succesvol de krachten van wereldwijde concurrentie heeft weerstaan, is de verzorgingsstaat.' Een studie door onderzoekers van de Wharton School en de Australian National University besprak de krachten die van invloed zijn op inkomensherverdeling. Garrett en Mitchell stelden vast dat er 'vrijwel geen aanwijzingen bestaan dat meer marktintegratie de belangrijkste sociale vangnetten heeft verzwakt.' Integendeel, schrijven zij, 'overheden hebben altijd gereageerd op toenemende integratie in internationale markten door inkomensherverdeling te vergroten.' De opkomst van de cybereconomie zal eindelijk de verzorgingsstaat blootstellen aan echte concurrentie. Het zal de aard van soevereiniteit veranderen en economieën transformeren, omdat de balans tussen bescherming en afpersing meer dan ooit in het voordeel van bescherming zal verschuiven.
+
+[^187]: Neil Munro, 'The Pentagon's new nightmare: an electronic Pearl Harbor', *Washington Post*, 16 juli 1995, p. C3.
+
+[^188]: Thomas Hobbes, Leviathan, hoofdstuk 13, 'De natuurlijke toestand van de mens betreffende hun gelukzaligheid en ellende'.
+
+[^189]: Thomas Schelling, Arms and Influence (New Haven: Yale University Press, 1966).
+
+[^190]: Kevin Kelly, Out of Control: The New Biology of Machines, Social Systems, and the Economic World (Reading, Mass.: Addison-Wesley, 1995), pp. 45–46.
+
+[^191]: Ibid., pp. 2–4.
+
+[^192]: Ibid., p. 4.
+
+[^193]: Heinz Pagels, *the dreams of reason* (New York: Bantam Books, 1989), geciteerd in Roger Lewin, *complexity: life at the edge of chaos* (New York: Macmillan, 1992), p. 10.
+
+[^194]: Lane, 'economic consequences of organized violence' (op. cit., p. 402).
+
+[^195]: Frederic C. Lane, 'the economic meaning of war and protection' in *Venice and history: the collected papers of Frederic C. Lane* (Baltimore: The Johns Hopkins Press, 1966), pp. 383–384.
+
+[^196]: Shi Mai'an and Lao Guanzhong, *outlaws of the marsh*, vertaald door Sidney Shapiro (Bloomington: Indiana University Press, 1981), p. 12.
+
+[^197]: George E Will, 'Vaarwel aan de welvaartsstaten,' *Washington Post*, 17 december 1995, p. C7.
+
+[^198]: Robert S. MeElvaine, De grote depressie: Amerika, 1929–1941 (New York: *Times Books*, 1984), p. 292.
+
+[^199]: Ibid., p. 293.
+
+[^200]: Smith, op. cit., p. 75.
+
+[^201]: Ibid., p. 76.
+
+[^202]: Ibid.
+
+[^203]: Een van de eerste vakbonden in Argentinië die zich daadwerkelijk organiseerden, was de spoorwegvakbond, opgericht in 1887. Zie Carmelo Mesa-Lago, *Social Security in Latin America: Pressure Groups, Stratification, and Inequality* (Pittsburgh: University of Pittsburgh Press, 1978), p. 161.
+
+[^204]: Voor meer details over de planning en bouw van het C&O-kanaal raadpleeg je Robert J. Brugger, *Maryland: A Middle Temperament 1634-1980* (Baltimore: The Johns Hopkins Press, 1990), pp. 202–3f.
+
+[^205]: Irving J. Sloan, *Our Violent Past: An American Chronicle* (New York: Random House, 1970), p. 177
+
+[^206]: Voor meer informatie over het geweld tijdens de spoorwegstakingen van 1877 zie ibid. en Brugger, op. cit., pp. 341–344.
+
+[^207]: Sloan, op. cit., p. 202. Zie ook S. S. Boynton, 'Miners’ vengeance', *'Overland Monthly'*, vol. 22 (1893), pp. 303–307
+
+[^208]: Benjamin Schwartz, 'American inequality: its history and scary future', *'New York Times'*, 19 december 1995, p. A25
+
+[^209]: MeElvaine, op. cit., p. 293
+
+[^210]: Ibid.
+
+[^211]: Ibid.
+
+[^212]: Henry C. Simons, 'Enkele overpeinzingen over syndicalisme', *Journal of Political Economy*, maart 1944, p. 22.
+
+[^213]: Kelly, op. cit., pp. 191–192.
+
+[^214]: Gayle N. Hanson, 'Een meeslepend verslag van “het leven” in de postmodernistische cyberspace', *Washington Times*, 24 december 1995, p. B7.
+
+[^215]: Een beknopte inleiding op het academische onderzoek naar anarchie vindt u in Gordon Tullock (red.), *Explorations in the Theory of Anarchy* (Blacksburg, Va.: Virginia Polytechnic Institute and State University, 1972). Zie ook Murray N. Rothbard, *Power and Market: Government and the Economy* (Menlo Park, Calif., 1970) en Robert Nozick, *Anarchy, State and Utopia* (New York: Basic Books, 1974).
+
+[^216]: Zie Pierre Clastres, *Society Against the State: The Leader as Servant and the Humane Uses of Power Among the Indians of the Americas* (New York: Urizen Books, 1977) en Jones, op. cit.
+
+[^217]: Lane, *economische gevolgen van georganiseerd geweld*, op. cit., p. 403.
+
+[^218]: Charles Tilly, *oorlogsvoering en staatsvorming als georganiseerde misdaad*, in Peter B. Evans, Dietrich Rueschemeyer en Theda Skoepol, *de staat weer betrekken* (Cambridge: *Cambridge University Press*, 1985), p. 169.
+
+[^219]: Ibid.
+
+[^220]: Lane, *economische gevolgen van georganiseerd geweld*, op. cit., p. 402.
+
+[^221]: David J. Elkins, *voorbij soevereiniteit: territorium en politieke economie in de eenentwintigste eeuw*. Toronto: *University of Toronto Press*, 1995, pp. 13–14.
+
+[^222]: Ibid., p. 29
+
+[^223]: Jim Taylor en Watts Wacker, *The 500-year delta: what happens after what comes next.* New York: *HarperCollins*, 1997, p. 40.
+
+[^224]: Ibid., p. 67
+
+[^225]: Ibid., pp. 41–42
+
+[^226]: George Gilder, *Fiber keeps its promise: get ready. Bandwidth will triple each year for the next 25, creating trillions in new wealth.* *Forbes ASAP*, 7 april 1997
+
+[^227]: Zie Neal Stephenson, Snow Crash. New York: *Bantam Books*, 1993
+
+[^228]: Keith B. Richburg, 'Twee jaar na de landing van de VS in Somalië is het weer chaotisch', *Washington Post*, 4 december 1994, p. A1.
+
+[^229]: Geciteerd in Tilly, Coercion, Capital and European States, op. cit., p. 85.
+
+[^230]: Lane, 'Economische gevolgen van georganiseerd geweld', op. cit., p. 411.
+
+[^231]: Ibid.
+
+[^232]: Ibid.
+
+[^233]: Ibid., p. 412.
+
+[^234]: Ibid., p. 403.
+
+[^235]: Ibid., p. 404.
+
+[^236]: Esther Dyson, *Release 2.1: een ontwerp voor het leven in het digitale tijdperk*. New York: *Broadway Books*, 1998, p. 131
+
+[^237]: Rees Davies, *Frontier arrangements in fragmented societies: Ireland and Wales*, in Robert Bartlett en Angus MacKay (red.), *Medieval frontier societies* (Oxford: *Oxford University Press*, 1992), p. 80.
+
+[^238]: Zie Thomas W. Lippman, *Seychelles offers investors safe haven for $10 million*, *Washington Post*, 31 december 1995, p. A27.
+
+[^239]: Zie *ROM of ages*, *Wired*, januari 1996, p. 52.
+
+[^240]: Geciteerd in James Adams, *Dawn of the cyber soldiers*, *The Sunday Times* (London), 15 oktober 1995, pp. 3–5.
+
+[^241]: Kelly, op. cit., p. 19.
+
+[^242]: George Melloan, 'Hervorming van de welvaartsstaat is grotendeels mythologisch', *The Wall Street Journal*. 14 oktober 1996, p. A19.
+
+[^243]: Zie hoofdstuk 8 van *The Great Reckoning*, 'Lineaire verwachtingen in een niet-lineaire wereld: hoe de telescoop ons leerde rekenen; hoe de computer ons kan helpen te zien.'
+
+[^244]: Merk op dat Lane's vier fasen van concurrentie en monopolie in het gebruik van geweld afwijken van de vier fasen in de organisatie van het economisch leven die wij onderscheiden, namelijk: jagen en verzamelen, landbouw, industrialisme en het informatietijdperk.
